@@ -11,10 +11,11 @@ const IndexPage = () => (
     <div>
     <div className="Hero">
         <div className="HeroGroup">
-          <h1>Hey there, <br />my name is <br /> Kate
+          <h1>Hey there, <br />my name is <br /> 
           </h1>
+          <h1><span className="Kate">Kate</span></h1>
           <p>I solve real problems in tech using pixel perfect boxes and drop-shadows.</p>
-          <Link to="/page-2/">See for yourself</Link>
+          <Link to="/page-2/">See for yourself →</Link>
           <div className="Logos">
             <img src={require('../images/logo-sketch.png')} width="50"/>
             <img src={require('../images/logo-figma.png')} width="50"/>
