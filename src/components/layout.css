@@ -63,13 +63,12 @@ a {
   font-size: 17px;
   font-weight: 600;
   color: #4A90E2;
-  text-transform: uppercase;
   padding: 9px 20px;
 }
 
 .Hero a:hover {
   background: white;
-  color: #F90358;
+  color: #3C79C1;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
