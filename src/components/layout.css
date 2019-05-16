@@ -32,10 +32,11 @@ a {
 
 .Hero h1 {
   margin: 0px;
-  color: #4A90E2;
-  font-size: 50px;
+  color: #000;
+  font-size: 100px;
   line-height: 1.2;
-  opacity: 0;
+  font-weight: 400;
+  opacity: 0.5;
   text-align: left;
   animation: HeroAnimation;
   animation-duration: 3s;
@@ -45,14 +46,17 @@ a {
 }
 
 .Hero .Kate {
-  font-size: 100px;
-  opacity: 0.4;
-  margin-top: -40px;
+  font-size: 120px;
+  font-weight: 600;
+  opacity: 0.2;
+  margin-top: -70px;
+  position: absolute;
 }
 
 .Hero p {
   color: rgba(0, 0, 0, 0.8);
   font-size: 24px;
+  padding-top: 100px;
   font-family: 'PT Mono', monospace;
   line-height: 1.5;
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);

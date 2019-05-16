@@ -11,9 +11,9 @@ const IndexPage = () => (
     <div>
     <div className="Hero">
         <div className="HeroGroup">
-          <h1>Hey there, <br />my name is <br /> 
+          <h1>Kate
           </h1>
-          <h1><span className="Kate">Kate</span></h1>
+          <div className="Kate">Butterfield</div>
           <p>I solve real problems in tech using pixel perfect boxes and drop-shadows.</p>
           <Link to="/page-2/">See for yourself →</Link>
           <div className="Logos">
@@ -43,4 +43,3 @@ const IndexPage = () => (
 )
 
 export default IndexPage
-

@@ -9,9 +9,8 @@ const Header = ({ siteTitle }) => (
       <Link to="/"><img src={require('../images/kate-logo-svg.svg')} width="30"/></Link>
       <Link to="/design">Design</Link>
       <Link to="/about">About</Link>
-      <Link to="/workshops">Workshops</Link>
-      <Link to="/buy"><button>Contact Me</button></Link>
-    </div> 
+      <Link to="/contact"><button>Contact Me 👋</button></Link>
+    </div>
   </div>
 )
 
