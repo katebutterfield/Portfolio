@@ -16,8 +16,6 @@ const IndexPage = () => (
           <div className="Kate">Portfolio</div>
           <p>I solve real problems in tech using pixel perfect boxes and drop-shadows.</p>
           <Link to="/page-2/">See for yourself →</Link>
-          <div className="Logos">
-          </div>
           <svg width="100%" height="172" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill="white" >
             <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="10s"
