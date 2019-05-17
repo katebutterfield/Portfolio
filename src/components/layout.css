@@ -48,7 +48,7 @@ a {
 .Hero .Kate {
   font-size: 120px;
   font-weight: 600;
-  opacity: 0.2;
+  opacity: 0.1;
   margin-top: -70px;
   position: absolute;
 }
@@ -114,10 +114,4 @@ a {
   grid-gap: 40px;
   margin: 100px 0;
   justify-items: center;
-}
-
-@media (max-width: 460px) {
-  .Hero .Logos {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
