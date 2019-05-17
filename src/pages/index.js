@@ -11,9 +11,9 @@ const IndexPage = () => (
     <div>
     <div className="Hero">
         <div className="HeroGroup">
-          <h1>Kate
+          <h1>Kate Butterfield --
           </h1>
-          <div className="Kate">Butterfield</div>
+          <div className="Kate">Portfolio</div>
           <p>I solve real problems in tech using pixel perfect boxes and drop-shadows.</p>
           <Link to="/page-2/">See for yourself →</Link>
           <div className="Logos">

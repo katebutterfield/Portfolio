@@ -64,7 +64,7 @@ a {
 }
 
 .Hero a {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 600;
   color: #4A90E2;
   padding: 9px 20px;
@@ -97,7 +97,7 @@ a {
   }
 
   100% {
-    opacity: 1;
+    opacity: 0.8;
     transform: translateY(0px);
   }
 }
