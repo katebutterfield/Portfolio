@@ -35,10 +35,6 @@
     transform: translateY(-3px);
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-}
 
 @media (max-width: 640px) {
     .Header {
