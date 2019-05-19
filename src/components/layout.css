@@ -86,7 +86,8 @@ a {
   }
 
   .Hero .Kate {
-    font-size: 80px;
+    font-size: 100px;
+    margin-top: -40px;
   }
 
   .Hero p {
