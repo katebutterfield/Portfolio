@@ -251,11 +251,11 @@ section {
           max-width: 50px;
 					margin: 0 0.5rem 0.5rem 0;
 					padding: 0.3125rem 1rem;
-					background-color: #4A90E2;
+					background-color: #DAE8F8;
 					border-radius: 6.1875rem;
-					color: #fff;
+					color: #4A90E2;
 					font-size: 0.75rem;
-					font-weight: 300;
+					font-weight: 500;
 				}
 
 .content p {
@@ -270,4 +270,9 @@ section {
     font-weight: 600;
     color: #4A90E2;
     padding: 9px 20px;
+  }
+
+  .projects {
+    margin: 0 auto;
+    padding-top: 150px;
   }

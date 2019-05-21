@@ -8,13 +8,7 @@ const Design = () => (
   <Layout>
     <SEO title="Design" />
     <div>
-    <div className="Hero">
-        <div className="HeroGroup">
-          <h1>Here's some cool design stuff</h1>
-          <p>Enjoy.</p>
-        </div>
-      </div>
-  <section id="projects">
+  <section class="projects">
 	<article>
 		<div class="thumbnail th-1"></div>
 		<div class="content">
