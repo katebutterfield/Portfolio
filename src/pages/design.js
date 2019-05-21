@@ -10,7 +10,8 @@ const Design = () => (
     <div>
   <section class="projects">
 	<article>
-		<div class="thumbnail th-1"></div>
+		<div class="thumbnail"><img src={require('../images/entelo-homepage.svg')}/>
+    </div>
 		<div class="content">
 			<h2 class="project-tile">
 				<span class="background-wrapper">

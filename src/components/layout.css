@@ -196,23 +196,22 @@ section {
 			flex-direction: row;
 			width: 75%;
 		}
+  }
 
 		@media (min-width: $lg) {
 			width: 55%;
 		}
 
-		.thumbnail {
+	   .thumbnail {
 			position: relative;
 			display: flex;
 			width: 100%;
-			height: 12.5rem;
+			height: 20rem;
 			margin-bottom: 1.25rem;
-			background-position: center;
+			background-position: left;
 			background-repeat: no-repeat;
 			background-size: cover;
 			box-shadow: 0 0 0.625rem rgba(black,0.2);
-			background-image: url('https://unsplash.com/photos/PeUJyoylfe4');
-			}
 
 			@media (min-width: $med) {
 				width: 65%;
@@ -227,7 +226,7 @@ section {
 			@media (min-width: $med) {
 				padding-right: 1.25rem;
 			}
-}
+    }
 			h2 {
 				display: inline-block;
 
@@ -269,7 +268,6 @@ section {
     font-size: 20px;
     font-weight: 600;
     color: #4A90E2;
-    padding: 9px 20px;
   }
 
   .projects {
