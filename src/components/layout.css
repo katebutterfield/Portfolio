@@ -229,7 +229,11 @@ section {
     }
 			h2 {
 				display: inline-block;
-
+        animation: HeroAnimation;
+        animation-duration: 3s;
+        animation-delay: 0.1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 				.background-wrapper {
 					position: relative;
 					display: inline;
