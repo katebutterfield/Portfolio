@@ -3,7 +3,6 @@ module.exports = {
     title: `Kate Butterfield Portfolio`,
     description: `Welcome to the place where my nerd shows the most. Here you can enjoy high-quality mockups, wireframes, and animations.`,
     author: `@katebutterfield`,
-    pathPrefix: "/Portfolio",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -32,5 +31,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
   ],
-  pathPrefix: "/",
+
 }
