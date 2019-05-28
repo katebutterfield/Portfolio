@@ -10,7 +10,7 @@ const Design = () => (
     <div>
   <section class="projects">
 	<article>
-		<div class="thumbnail"><img src={require('../images/homepage-browser.png')}/>
+		<div class="thumbnail"><img src={require('../images/homepage-cropped.png')}/>
     </div>
 		<div class="content">
 			<h2 class="project-tile">

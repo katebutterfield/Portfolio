@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
       <Link to="/"><img src={require('../images/kate-logo-svg.svg')} width="30"/></Link>
       <Link to="/design">Design</Link>
       <Link to="/about">About</Link>
-      <Link to="/contact"><button>Contact Me 👋</button></Link>
+      <Link to="/contact"><button>Contact Me <span class="wave">👋</span></button></Link>
     </div>
   </div>
 )
