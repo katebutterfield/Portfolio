@@ -10,12 +10,12 @@ const Design = () => (
     <div>
   <section class="projects">
 	<article>
-		<div class="thumbnail"><img src={require('../images/homepage-cropped.png')}/>
+		<div class="thumbnail"><img src={require('../images/notifications.png')}/>
     </div>
 		<div class="content">
 			<h2 class="project-tile">
 				<span class="background-wrapper">
-					Homepage | Notifications —<span></span>
+					Homepage | Notifications —
 				</span>
 			</h2>
 			<p>I redesigned the Entelo Homepage to optimize for a better workflow and user retention. </p>
