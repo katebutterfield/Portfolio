@@ -15,13 +15,6 @@ a {
   text-decoration: none;
 }
 
-.Hero {
-  background-image: url('');
-  height: 920px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
 
 .HeroGroup {
   margin: 0 auto;
@@ -111,14 +104,6 @@ a {
   position: absolute;
   bottom: 0;
   left: 0;
-}
-
-.Hero .Logos {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 40px;
-  margin: 100px 0;
-  justify-items: center;
 }
 
 
@@ -277,4 +262,23 @@ section {
     padding-top: 150px;
   }
 
-  
+
+  .CardGroup {
+  margin: 0px 40px 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+}
+
+@media (max-width: 1060px) {
+  .CardGroup {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
