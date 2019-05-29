@@ -282,3 +282,78 @@ section {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+
+
+/*about page*/
+
+.container-fluid {
+  padding-top: 150px;
+  padding-bottom: 200px;
+  position: center;
+	width: 100%;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.profile-card {
+	background-color: white;
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	width: 320px;
+}
+
+.cover {
+  background-size: cover;
+	background-position: center;
+}
+
+.cover img {
+  height: 150px;
+}
+
+.profile-picture {
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px -2px black;
+	margin-bottom: -57px;
+	transform: translateY(-55%);
+	width: 115px;
+  height: 115px;
+}
+
+.user-position {
+	position: relative;
+	margin: 0 7px;
+	font-weight: 500;
+}
+
+.location {
+	margin-top: 10px;
+}
+
+.social {
+	font-size: 20px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-items: center;
+	}
+
+.social a {
+  color: #000;
+}
+
+.social a:hover {
+  color: #4A90E2;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
