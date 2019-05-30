@@ -197,7 +197,6 @@ section {
        box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.1);
        animation: HeroAnimation;
        animation-duration: 3s;
-       animation-delay: 0.1s;
        animation-fill-mode: forwards;
        animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
        }
@@ -208,7 +207,6 @@ section {
   			 margin-bottom: 1.25rem;
         animation: HeroAnimation;
         animation-duration: 3s;
-        animation-delay: 0.1s;
         animation-fill-mode: forwards;
         animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
         }
@@ -257,6 +255,7 @@ section {
 					color: #4A90E2;
 					font-size: 0.75rem;
 					font-weight: 500;
+          margin-bottom: 40px;
 				}
 
 .content p {

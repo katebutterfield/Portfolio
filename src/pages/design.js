@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Image from "../components/image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import LazyLoad from 'react-lazy-load'
 
 const Design = () => (
   <Layout>
@@ -10,7 +11,10 @@ const Design = () => (
     <div>
   <section class="projects">
 	<article>
-		<div class="thumbnail"><img src={require('../images/homepage-cropped.png')}/>
+		<div class="thumbnail">
+    <LazyLoad height={400} offsetHorizontal={50}>
+    <img src={require('../images/homepage-cropped.png')}/>
+    </LazyLoad>
     </div>
 		<div class="content">
 			<h2 class="project-tile">
@@ -33,7 +37,10 @@ const Design = () => (
 	</article>
 
   <article>
-		<div class="thumbnail2"><img src={require('../images/form-tabs.gif')}/>
+		<div class="thumbnail2">
+    <LazyLoad height={400} offsetHorizontal={50}>
+    <img src={require('../images/form-tabs.gif')}/>
+    </LazyLoad>
     </div>
 		<div class="content">
 			<h2 class="project-tile">
@@ -56,7 +63,10 @@ const Design = () => (
 	</article>
 
   <article>
-		<div class="thumbnail3"><img src={require('../images/hsad.png')}/>
+		<div class="thumbnail3">
+    <LazyLoad height={400} offsetHorizontal={50}>
+    <img src={require('../images/hsad.png')}/>
+    </LazyLoad>
     </div>
 		<div class="content">
 			<h2 class="project-tile">
