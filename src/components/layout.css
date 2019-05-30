@@ -175,12 +175,12 @@ section {
 		width: 90%;
 		margin-bottom: 3.125rem;
     grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 120px;
     }
 
 
 	   .thumbnail img {
-
-			max-width: 70%;
+      max-width: 70%;
       min-width: 50%;
 			margin-bottom: 1.25rem;
       animation: HeroAnimation;
@@ -189,6 +189,30 @@ section {
       animation-fill-mode: forwards;
       animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
       }
+
+      .thumbnail2 img {
+       max-width: 50%;
+       min-width: 50%;
+ 			 margin-bottom: 1.25rem;
+       box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.1);
+       animation: HeroAnimation;
+       animation-duration: 3s;
+       animation-delay: 0.1s;
+       animation-fill-mode: forwards;
+       animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+       }
+
+       .thumbnail3 img {
+        max-width: 80%;
+        min-width: 50%;
+  			 margin-bottom: 1.25rem;
+        animation: HeroAnimation;
+        animation-duration: 3s;
+        animation-delay: 0.1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+
 
 
       @media (max-width: 1060px) {
@@ -225,7 +249,7 @@ section {
 				.tags {
 					position: relative;
 					display: inline-block;
-          max-width: 50px;
+          max-width: 90px;
 					margin: 0 0.5rem 0.5rem 0;
 					padding: 0.3125rem 1rem;
 					background-color: #DAE8F8;
