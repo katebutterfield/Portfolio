@@ -371,3 +371,38 @@ section {
   color: #4A90E2;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
+
+/* Entelo Projects*/
+
+.EnteloHeader {
+  padding: 200px 50px;
+  background-image: url(../images/entelo-header.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+}
+
+.EnteloHeader img {
+  max-width: 250px;
+}
+
+@media (max-width: 640px) {
+  .EnteloHeader img {
+    max-width: 200px;
+  }
+
+  .EnteloHeader {
+    background-position: left;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .EnteloHeader img {
+    max-width: 200px;
+  }
+
+  .EnteloHeader {
+    background-position: left;
+  }
+}

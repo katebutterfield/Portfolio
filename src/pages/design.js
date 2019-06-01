@@ -32,7 +32,7 @@ const Design = () => (
             <div class="tags">UI</div>
         </div>
 			</div>
-			<Link to="/">View Project</Link>
+			<Link to="/entelo">View Project</Link>
 		</div>
 	</article>
 
