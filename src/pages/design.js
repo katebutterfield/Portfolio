@@ -13,7 +13,7 @@ const Design = () => (
 	<article>
 		<div class="thumbnail">
     <LazyLoad height={400} offsetHorizontal={50}>
-    <img src={require('../images/homepage-cropped.png')}/>
+    <img src={require('../images/homepage-cropped.jpg')}/>
     </LazyLoad>
     </div>
 		<div class="content">
