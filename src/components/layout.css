@@ -263,6 +263,13 @@ section {
   font-size: 18px;
   font-family: 'PT Mono', monospace;
   line-height: 1.5;
+  margin-top: -10px;
+}
+
+.logo img {
+  max-height: 50px;
+  max-width: 280px;
+  margin-bottom: 20px;
 }
 
   a {
@@ -426,8 +433,26 @@ section {
   grid-template-columns: repeat(2, auto);
 }
 
-.sticky {
+.entelo-sticky {
   background-image: url(../images/entelo-pattern.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 250px 100px;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  max-height: 300px;
+  text-align: center;
+  display: flex;
+  max-width: 500px;
+  min-width: 200px;
+}
+
+.es-sticky {
+  background-image: url(../images/es-pattern.jpg);
   background-size:cover;
   background-position:center center;
   background-repeat: no-repeat;
@@ -450,8 +475,23 @@ section {
     grid-template-columns: repeat(1, auto);
   }
 
-  .sticky {
+  .entelo-sticky {
     background-image: url(../images/entelo-pattern.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px 100px;
+    align-items: center;
+    justify-content: center;
+    max-height: 300px;
+    text-align: center;
+    display: flex;
+    max-width: 840px;
+    min-width: 200px;
+  }
+  .es-sticky {
+    background-image: url(../images/es-pattern.jpg);
     background-size:cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -492,11 +532,11 @@ li {
   line-height: 200%;
 }
 
-li h4 {
+.entelo-list li h4 {
   color: #6699CC;
 }
 
-li p {
+.entelo-list li p {
   margin-top: -30px;
   color: rgba(0, 0, 0, 0.8);
   font-size: 18px;
@@ -549,4 +589,46 @@ li p {
   max-height: 500px;
   width: 100%;
   margin-bottom: 100px;
+}
+
+/* Employstream Page */
+
+.ESHeader {
+  padding: 200px 50px;
+  background-image: url(../images/es-header.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 640px) {
+  .ESHeader img {
+    max-width: 300px;
+  }
+
+  .ESHeader {
+    background-position: left;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .ESHeader img {
+    max-width: 300px;
+  }
+
+  .ESHeader {
+    background-position: left;
+  }
+}
+
+.es-list li h4 {
+  color: #39B54A;
+}
+
+.es-list li p {
+  margin-top: -30px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  font-family: 'PT Mono', monospace;
 }

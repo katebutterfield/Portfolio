@@ -8,15 +8,16 @@ const Entelo = () => (
     <SEO title="Entelo" />
     <div class="EnteloHeader">
     <img src={require('../images/entelo-logo.svg')}/>
+    <p>Recruiting Automation Platform (Web App)</p>
     </div>
     <div class="description">
-      <div>
+      <div class="entelo-list">
         <ul>
           <li><h4>ROLE</h4><p>Lead Designer 👩🏻‍💻</p></li>
-          <li><h4>PROBLEM</h4><p>Old homepage was outdated and irrelevant to the user, showing mostly team activity.</p></li>
-          <li><h4>SOLUTION</h4><p>A personalized dashboard displaying the user's activity and actionable items using customizable widgets.</p></li>
+          <li><h4>PROBLEM</h4><p>This page is the first thing the user sees when they log on to Entelo. The old homepage was cluttered with irrelevant information, making it useless to the user. It gave no guideance on how to use the product, resulting in low feature usage. </p></li>
+          <li><h4>SOLUTION</h4><p>I designed a dashboard that is personalized to each user, displaying their activity with actionable items using customizable widgets. The goal was to transform this page into a 'hub' for the most important information while also driving product adoption</p></li>
           <li><h4>PROCESS</h4><p>
-          Research → Wireframing → Mockups → User Testing → Developer Hand-off
+          Research → Wireframing → Mockups → User Testing → Implementation
           </p></li>
         </ul>
       </div>
@@ -30,7 +31,7 @@ const Entelo = () => (
         <img src={require('../images/homepage-wireframe.png')}/>
       </div>
     <div class ="ProjectShowcase">
-      <div class ="sticky">
+      <div class ="entelo-sticky">
         <h2>Final Product</h2>
       </div>
       <div class="scroll">

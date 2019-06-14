@@ -17,9 +17,12 @@ const Design = () => (
     </LazyLoad>
     </div>
 		<div class="content">
+    <div class="logo">
+    <img src={require('../images/entelo-logo.svg')}/>
+    </div>
 			<h2 class="project-tile">
 				<span class="background-wrapper">
-					Homepage | Notifications —
+					Homepage
 				</span>
 			</h2>
 			<p>I redesigned the Entelo Homepage to optimize for a better workflow and user retention. </p>
@@ -43,9 +46,12 @@ const Design = () => (
     </LazyLoad>
     </div>
 		<div class="content">
+    <div class="logo">
+    <img src={require('../images/employstream-logo.svg')}/>
+    </div>
 			<h2 class="project-tile">
 				<span class="background-wrapper">
-					Form Builder —
+					Form Builder
 				</span>
 			</h2>
 			<p>I created a self-serving form builder for EmployStream's web app that cut down on time spent training new users. </p>
@@ -58,7 +64,7 @@ const Design = () => (
             <div class="tags">Lucky Orange</div>
         </div>
 			</div>
-			<Link to="/">View Project</Link>
+			<Link to="/employstream">View Project</Link>
 		</div>
 	</article>
 
@@ -71,7 +77,7 @@ const Design = () => (
 		<div class="content">
 			<h2 class="project-tile">
 				<span class="background-wrapper">
-					Athletic Director Mobile App —
+					Athletic Director Mobile App
 				</span>
 			</h2>
 			<p>I mocked up an app design for HSAD Network, a communication platform for Athletic Directors.</p>
