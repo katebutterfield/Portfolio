@@ -469,6 +469,24 @@ section {
   min-width: 200px;
 }
 
+.hsad-sticky {
+  background-image: url(../images/hsad-sticky.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 250px 100px;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  max-height: 300px;
+  text-align: center;
+  display: flex;
+  max-width: 500px;
+  min-width: 200px;
+}
+
 @media (max-width: 840px) {
   .ProjectShowcase {
     display: grid;
@@ -492,6 +510,22 @@ section {
   }
   .es-sticky {
     background-image: url(../images/es-pattern.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px 100px;
+    align-items: center;
+    justify-content: center;
+    max-height: 300px;
+    text-align: center;
+    display: flex;
+    max-width: 840px;
+    min-width: 200px;
+  }
+
+  .hsad-sticky {
+    background-image: url(../images/hsad-sticky.jpg);
     background-size:cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -557,10 +591,11 @@ li {
   margin-right: auto;
   display: block;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .wireframes {
-  padding-top: 100px;
+  padding-top: 80px;
   background-color: #F1F1F1;
 }
 
@@ -631,4 +666,83 @@ li {
   color: rgba(0, 0, 0, 0.8);
   font-size: 18px;
   font-family: 'PT Mono', monospace;
+}
+
+
+
+/* HSAD Projects*/
+
+.HSADHeader {
+  padding: 200px 50px;
+  background-image: url(../images/hsad-header.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+}
+
+.HSADHeader img {
+  max-width: 250px;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (max-width: 640px) {
+  .HSADHeader img {
+    max-width: 200px;
+  }
+
+  .HSADHeader {
+    background-position: left;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .HSADHeader img {
+    max-width: 200px;
+  }
+
+  .HSADHeader {
+    background-position: left;
+  }
+}
+
+.hsad-list li h4 {
+  color: #397F3D;
+}
+
+.hsad-list li p {
+  margin-top: -30px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  font-family: 'PT Mono', monospace;
+}
+
+.mobile-scroll {
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.mobile-scroll img {
+  max-width: 90%;
+}
+
+.offset {
+  transform: translateY(50%)
+}
+
+.footer img {
+  max-height: 800px;
+  width: 100%;
+  margin-bottom: 100px;
 }

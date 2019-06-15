@@ -90,7 +90,7 @@ const Design = () => (
             <div class="tags">Grid Layout</div>
         </div>
 			</div>
-			<Link to="/">View Project</Link>
+			<Link to="/hsad">View Project</Link>
 		</div>
 	</article>
   </section>
