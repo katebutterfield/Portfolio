@@ -22,21 +22,21 @@ const IndexPage = () => (
     </div>
     <div className="Cards">
     <div className="CardGroup">
-    <Card
+    <a href="https://medium.com/@katebutterfield.design/building-a-design-system-from-scratch-ae6ffda515b5?source=friends_link&sk=ee168b484339bc29db2ad13412fbb44b"><Card
       title="Design System"
       text="1 Project"
       image={require('../images/design-system.jpg')}
-    />
+    /></a>
     <Card
       title="Interaction Design"
       text="1 Project"
       image={require('../images/interaction-design.jpg')}
     />
-    <Card
+    <Link to="/hsad"><Card
       title="Mobile App Design"
-      text="2 Projects"
+      text="1 Project"
       image={require('../images/mobile-design.jpg')}
-    />
+    /></Link>
     </div>
     </div>
   </Layout>
