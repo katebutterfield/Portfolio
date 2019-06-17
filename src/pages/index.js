@@ -27,11 +27,11 @@ const IndexPage = () => (
       text="1 Project"
       image={require('../images/design-system.jpg')}
     /></a>
-    <Card
+    <Link to="/mentors"><Card
       title="Interaction Design"
       text="1 Project"
       image={require('../images/interaction-design.jpg')}
-    />
+    /></Link>
     <Link to="/hsad"><Card
       title="Mobile App Design"
       text="1 Project"

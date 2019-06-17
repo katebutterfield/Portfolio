@@ -19,7 +19,10 @@ a {
 .HeroGroup {
   margin: 0 auto;
   max-width: 500px;
-  padding: 150px 50px;
+  padding-top: 150px;
+  padding-bottom: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
 }
 
@@ -746,4 +749,72 @@ li {
   max-height: 800px;
   width: 100%;
   margin-bottom: 100px;
+}
+
+.mentor-description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 100px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.animation img {
+  box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.15);
+}
+
+.mentor-list li h4 {
+  color: #000;
+}
+
+.mentor-list li p {
+  margin-top: -30px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  font-family: 'PT Mono', monospace;
+}
+
+.MentorHeader {
+  padding: 300px 50px;
+  background-image: url(../images/mentor-header.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+}
+
+.MentorHeader img {
+  max-width: 250px;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (max-width: 640px) {
+  .MentorHeader img {
+    max-width: 200px;
+  }
+
+  .MentorHeader {
+    background-position: left;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .MentorHeader img {
+    max-width: 200px;
+  }
+
+  .MentorHeader {
+    background-position: left;
+  }
 }
