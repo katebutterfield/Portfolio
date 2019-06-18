@@ -804,7 +804,15 @@ li {
   }
 
   .MentorHeader {
-    background-position: left;
+    background-position: right;
+  }
+  .mentor-description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
   }
 }
 
@@ -815,6 +823,14 @@ li {
   }
 
   .MentorHeader {
-    background-position: left;
+    background-position: right;
+  }
+  .mentor-description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
   }
 }
