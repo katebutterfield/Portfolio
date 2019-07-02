@@ -15,7 +15,7 @@ const IndexPage = () => (
           <h1>Kate Butterfield --
           </h1>
           <div className="Kate">Portfolio</div>
-          <p>I solve real problems in tech using pixel perfect boxes and drop-shadows.</p>
+          <p>I design thoughtful digital experiences for all humans.</p>
           <Link to="/design">See for yourself →</Link>
     </div>
     </div>

@@ -25,14 +25,13 @@ const Design = () => (
 					Homepage
 				</span>
 			</h2>
-			<p>I redesigned the Entelo Homepage to optimize for a better workflow and user retention. </p>
+			<p>I redesigned the Entelo Homepage to optimize for user retention and a better workflow. </p>
 			<div class="skills">
 				<div>Tools</div>
         <div class="tags-group">
 				    <div class="tags">Sketch</div>
             <div class="tags">InVision</div>
-            <div class="tags">UX</div>
-            <div class="tags">UI</div>
+            <div class="tags">FullStory</div>
         </div>
 			</div>
 			<Link to="/entelo">View Project</Link>
@@ -59,8 +58,7 @@ const Design = () => (
 				<div>Tools</div>
         <div class="tags-group">
 				    <div class="tags">Sketch</div>
-            <div class="tags">Anima</div>
-            <div class="tags">Animation</div>
+            <div class="tags">Anima Toolkit</div>
             <div class="tags">Lucky Orange</div>
         </div>
 			</div>
@@ -85,7 +83,6 @@ const Design = () => (
 				<div>Tools</div>
         <div class="tags-group">
 				    <div class="tags">Sketch</div>
-            <div class="tags">Illustrator</div>
             <div class="tags">Photoshop</div>
             <div class="tags">Grid Layout</div>
         </div>

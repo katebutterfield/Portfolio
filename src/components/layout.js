@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
           <footer>
             © {new Date().getFullYear()}, Designed and developed by
             {` `}
-            <a href="https://www.linkedin.com/in/kate-butterfield/">Kate ¯\_(ツ)_/¯</a>
+            <a href="https://www.linkedin.com/in/kate-butterfield/">me</a>
           </footer>
       </>
     )}

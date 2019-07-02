@@ -14,7 +14,7 @@ const Entelo = () => (
       <div class="entelo-list">
         <ul>
           <li><h4>ROLE</h4><p>Lead Designer 👩🏻‍💻</p></li>
-          <li><h4>PROBLEM</h4><p>This page is the first thing the user sees when they log on to Entelo. The old homepage was cluttered with irrelevant information, making it useless to the user. It gave no guideance on how to use the product, resulting in low feature usage. </p></li>
+          <li><h4>PROBLEM</h4><p>This page is the first thing the user sees when they log on to Entelo. The old homepage was cluttered with irrelevant information, making it useless to the user. It gave no guidance on how to use the product, resulting in low feature usage. </p></li>
           <li><h4>SOLUTION</h4><p>I designed a dashboard that is personalized to each user, displaying their activity with actionable items using customizable widgets. The goal was to transform this page into a 'hub' for the most important information while also driving product adoption</p></li>
           <li><h4>PROCESS</h4><p>
           Research → Wireframing → Mockups → User Testing → Implementation
@@ -22,6 +22,19 @@ const Entelo = () => (
         </ul>
       </div>
         </div>
+        <div class="FeedbackHeader">
+          <h2>Tested with real users</h2>
+        </div>
+      <div class="feedback">
+        <div class ="uber">
+          <img src={require('../images/uber-logo.png')}/>
+          <p>Engineering Leadership Sourcer</p>
+        </div>
+        <div class ="surveymonkey">
+          <img src={require('../images/surveymonkey-logo.png')}/>
+          <p>Technical Sourcer</p>
+        </div>
+      </div>
       <div class ="before">
         <h2>Original Homepage</h2>
         <img src={require('../images/entelo-old-homepage.jpg')}/>
@@ -48,7 +61,7 @@ const Entelo = () => (
         <p>For some familiarity to the old homepage, I kept an activity feed on the page to show users how other people on their team are currently using Entelo.</p>
         <img src={require('../images/entelo-browser-activity.jpg')}/>
         <h4>Achievements</h4>
-        <p>Gamification encourages users to be more active on the platform. To spark this productivity, decided to display the user's latest badge, along with their progress towards the next one. </p>
+        <p>Gamification encourages users to be more active on the platform. To spark this productivity, I decided to display the user's latest badge along with their progress towards the next one. </p>
         <img src={require('../images/entelo-browser-achievements.jpg')}/>
         <h4>Searches</h4>
         <p>Some space was preserved to display the user's saved/ recent searches. </p>
