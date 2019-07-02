@@ -32,13 +32,13 @@ const EmployStream = () => (
       </div>
       <div class="scroll">
         <h4>Initial Form Setup</h4>
-        <p>This is historically the most diffuicult part of the process because users don't know where to start. I created a clear landing area for each field type so the user knows where to drag and drop them, and can visualize the end result based on the layout of this page.</p>
+        <p>This is historically the most difficult part of the process because users don't know where to start. I created a clear landing area for each field type so the user knows where to drag and drop them, and can visualize the end result based on the layout of this page.</p>
         <img src={require('../images/form-empty.jpg')}/>
         <h4>Flexible Layout</h4>
         <p>Previously, the system could only create single-column forms. With this new design, users are able to switch between a full/half column layout for fields like "First Name" and "Last Name" which make sense placed side by side.</p>
         <img src={require('../images/form-columns.jpg')}/>
         <h4>Drag and Drop</h4>
-        <p>To allow for more flexibility, this design supports the ability to re-position fields on the page by dragging and dropping them to snap into place.</p>
+        <p>To allow for more flexibility, this design supports the ability to reposition fields on the page by dragging and dropping them to snap into place.</p>
         <img src={require('../images/form-drag.jpg')}/>
         <h4>Conditional Logic</h4>
         <p>If 'this' then 'that' - This is the basic idea behind conditional formatting. I built this functionality into the "Logic" tab on the side bar so the user can configure this formatting while simultaneously viewing their changes on the form.</p>
