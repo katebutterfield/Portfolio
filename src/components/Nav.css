@@ -1,0 +1,35 @@
+.Nav {
+    width: 450px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.15);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+}
+
+.Nav:hover {
+    box-shadow: 0 30px 60px rgba(0,0,0, 0.3);
+}
+
+.Nav img {
+    height: 150px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    position: relative;
+}
+
+.Nav h4 {
+    color: black;
+    font-size: 18px;
+    position: relative;
+}
+
+.Nav h5 {
+    color: #888888;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}

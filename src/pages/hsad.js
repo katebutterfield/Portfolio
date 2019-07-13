@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Nav from '../components/nav';
+import { Link } from "gatsby"
 
 
 const HSAD = () => (
@@ -43,6 +45,22 @@ const HSAD = () => (
     </div>
     <div class="footer">
       <img src={require('../images/hsad-footer.jpg')}/>
+    </div>
+    <div class="project-nav">
+    <div class ="previous-project">
+    <Link to="/employstream"><Nav
+    title="← Back"
+    subtitle="EmployStream Forms"
+    image={require('../images/es-cover.jpg')}
+  /></Link>
+    </div>
+    <div class ="next-project">
+    <Link to="/about"><Nav
+    title="Continue to →"
+    subtitle="Learn about me!"
+    image={require('../images/kate-profie.jpeg')}
+  /></Link>
+    </div>
     </div>
   </Layout>
 )

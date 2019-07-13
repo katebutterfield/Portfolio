@@ -1,7 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import Nav from '../components/nav';
+import { Link } from "gatsby"
 
 const ClassHook = () => (
   <Layout>
@@ -63,6 +64,22 @@ const ClassHook = () => (
     </div>
     <div class="footer">
       <img src={require('../images/classhook-footer.jpg')}/>
+    </div>
+    <div class="project-nav">
+    <div class ="previous-project">
+    <Link to="/entelo"><Nav
+    title="← Back"
+    subtitle="Entelo Homepage"
+    image={require('../images/entelo-cover.jpg')}
+  /></Link>
+    </div>
+    <div class ="next-project">
+    <Link to="/employstream"><Nav
+    title="Next Up →"
+    subtitle="EmployStream Forms"
+    image={require('../images/es-cover.jpg')}
+  /></Link>
+    </div>
     </div>
   </Layout>
 )

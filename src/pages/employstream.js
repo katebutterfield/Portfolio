@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Nav from '../components/nav';
+import { Link } from "gatsby"
 
 
 const EmployStream = () => (
@@ -47,6 +49,22 @@ const EmployStream = () => (
     </div>
     <div class="mockup">
       <img src={require('../images/form-footer.jpg')}/>
+    </div>
+    <div class="project-nav">
+    <div class ="previous-project">
+    <Link to="/classhook"><Nav
+    title="← Back"
+    subtitle="ClassHook Redesign"
+    image={require('../images/classhook-cover.jpg')}
+  /></Link>
+    </div>
+    <div class ="next-project">
+    <Link to="/hsad"><Nav
+    title="Next Up →"
+    subtitle="HSAD Mobile App"
+    image={require('../images/hsad-cover.jpg')}
+  /></Link>
+    </div>
     </div>
   </Layout>
 )

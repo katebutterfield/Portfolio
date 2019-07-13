@@ -8,7 +8,7 @@ import Card from '../components/card';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`product designer`, `san francisco`, `portfolio`]} />
     <div>
     <div className="Hero">
         <div className="HeroGroup">

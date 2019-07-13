@@ -1,6 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
+import { Link } from "gatsby"
 import SEO from "../components/seo"
+import Nav from '../components/nav';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 const Entelo = () => (
@@ -13,10 +19,10 @@ const Entelo = () => (
     <div class="description">
       <div class="entelo-list">
         <ul>
-          <li><h4>ROLE</h4><p>Lead Designer 👩🏻‍💻</p></li>
-          <li><h4>PROBLEM</h4><p>This page is the first thing the user sees when they log on to Entelo. The old homepage was cluttered with irrelevant information, making it useless to the user. It gave no guidance on how to use the product, resulting in low feature usage. </p></li>
-          <li><h4>SOLUTION</h4><p>I designed a dashboard that is personalized to each user, displaying their activity with actionable items using customizable widgets. The goal was to transform this page into a 'hub' for the most important information while also driving product adoption</p></li>
-          <li><h4>PROCESS</h4><p>
+          <li data-aos="fade-up" data-aos-offset="20" data-aos-delay="20" data-aos-duration="300" data-aos-easing="ease-in-out"class><h4>ROLE</h4><p>Lead Designer 👩🏻‍💻</p></li>
+          <li data-aos="fade-up" data-aos-offset="20" data-aos-delay="20" data-aos-duration="300" data-aos-easing="ease-in-out"class><h4>PROBLEM</h4><p>This page is the first thing the user sees when they log on to Entelo. The old homepage was cluttered with irrelevant information, making it useless to the user. <span class="highlight">It gave no guidance on how to use the product, resulting in low feature usage.</span></p></li>
+          <li data-aos="fade-up" data-aos-offset="20" data-aos-delay="20" data-aos-duration="300" data-aos-easing="ease-in-out"class><h4>SOLUTION</h4><p>I designed a dashboard that is personalized to each user, displaying their activity with <span class="highlight">actionable items using customizable widgets.</span>The goal was to transform this page into a 'hub' for the most important information while also driving product adoption</p></li>
+          <li data-aos="fade-up" data-aos-offset="20" data-aos-delay="20" data-aos-duration="300" data-aos-easing="ease-in-out"class><h4>PROCESS</h4><p>
           Research → Wireframing → Mockups → User Testing → Implementation
           </p></li>
         </ul>
@@ -26,22 +32,28 @@ const Entelo = () => (
           <h2>Tested with real users</h2>
         </div>
       <div class="feedback">
-        <div class ="uber">
+        <div data-aos="fade-up" data-aos-offset="20" data-aos-delay="20" data-aos-duration="300" data-aos-easing="ease-in-out"class ="uber">
           <img src={require('../images/uber-logo.png')}/>
           <p>Engineering Leadership Sourcer</p>
         </div>
-        <div class ="surveymonkey">
+        <div data-aos="fade-up" data-aos-offset="20" data-aos-delay="40" data-aos-duration="500" data-aos-easing="ease-in-out" class ="surveymonkey">
           <img src={require('../images/surveymonkey-logo.png')}/>
           <p>Technical Sourcer</p>
         </div>
       </div>
       <div class ="before">
         <h2>Original Homepage</h2>
-        <img src={require('../images/entelo-old-homepage.jpg')}/>
+        <img data-aos="fade-up" data-aos-offset="20" data-aos-delay="20" data-aos-duration="300" data-aos-easing="ease-in-out"class src={require('../images/entelo-old-homepage.jpg')}/>
+      </div>
+      <div class="questions">
+      <img src={require('../images/animat-lightbulb.gif')}/>
+      <div data-aos="fade-up" data-aos-offset="50" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in-out"><h2>How can we help recruiters stay organized and informed while sourcing candidates?</h2>
+      <h2>↓</h2>
+      </div>
       </div>
       <div class="wireframes">
-        <h2>Wireframe</h2>
-        <img src={require('../images/homepage-wireframe.png')}/>
+        <h2 data-aos="fade-up" data-aos-offset="20" data-aos-delay="20" data-aos-duration="300" data-aos-easing="ease-in-out">Wireframe</h2>
+        <img data-aos="fade-up" data-aos-offset="20" data-aos-delay="30" data-aos-duration="400" data-aos-easing="ease-in-out" class src={require('../images/homepage-wireframe.png')}/>
       </div>
     <div class ="ProjectShowcase">
       <div class ="entelo-sticky">
@@ -70,6 +82,22 @@ const Entelo = () => (
     </div>
     <div class="mockup">
       <img src={require('../images/entelo-mockup.jpg')}/>
+    </div>
+    <div class="project-nav">
+    <div class ="previous-project">
+    <Link to="/design"><Nav
+    title="← Back"
+    subtitle="All Projects"
+    image={require('../images/all-projects.png')}
+  /></Link>
+    </div>
+    <div class ="next-project">
+    <Link to="/classhook"><Nav
+    title="Next Up →"
+    subtitle="ClassHook Redesign"
+    image={require('../images/classhook-cover.jpg')}
+  /></Link>
+    </div>
     </div>
   </Layout>
 )
