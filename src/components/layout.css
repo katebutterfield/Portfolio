@@ -54,6 +54,7 @@ a {
   font-size: 24px;
   font-weight: 300;
   padding-top: 100px;
+  padding-bottom: 40px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -308,8 +309,15 @@ section {
   }
 
   .projects {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
     padding-top: 150px;
+    padding-bottom: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
   }
 
 
@@ -325,10 +333,16 @@ section {
   .CardGroup {
     grid-template-columns: repeat(2, 1fr);
   }
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (max-width: 720px) {
   .CardGroup {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .projects {
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -376,16 +390,6 @@ section {
   animation-delay: 0.1s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
-.profile-card:hover {
-  transform: scale(1.1, 1.1);
-  box-shadow: 0 30px 60px rgba(0,0,0, 0.1);
-}
-
-.info-card:hover {
-  transform: scale(1.01, 1..01);
-  box-shadow: 0 30px 60px rgba(0,0,0, 0.1);
 }
 
 .info-card {
