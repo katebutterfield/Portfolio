@@ -39,7 +39,7 @@ const About = () => (
           I'm a naturally collaborative person and value my relationships with product stakeholders, teammates, and users. <span class="highlight">I'm driven by innovation and excited by the opportunity to help scale a solution by making informed and deliberate design decisions. </span>
           <br/>
           <br/>
-          In my free time you can find me exploring San Francisco, grabbing coffee, or reading up on design trends from some of my <a href="https://muz.li/" target="_blank">'secret source'</a>. 
+          In my free time you can find me exploring San Francisco, grabbing coffee, or reading up on design trends from my <a href="https://muz.li/" target="_blank">'secret source'</a>. 
           </p>
         </div>
       </div>
