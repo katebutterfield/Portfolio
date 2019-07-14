@@ -12,6 +12,8 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
+AOS.init();
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
