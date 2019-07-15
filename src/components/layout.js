@@ -9,10 +9,19 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Header from "./header"
 import "./layout.css"
 
-AOS.init();
+componentDidMount() {
+    const AOS = require('aos');
+    this.aos = AOS
+    this.aos.init()
+}
+
+componentDidUpdate() {
+    this.aos.refresh()
+}
 
 const Layout = ({ children }) => (
   <StaticQuery
