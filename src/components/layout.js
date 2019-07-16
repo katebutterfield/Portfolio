@@ -13,15 +13,9 @@ import 'aos/dist/aos.css';
 import Header from "./header"
 import "./layout.css"
 
-componentDidMount() {
-    const AOS = require('aos');
-    this.aos = AOS
-    this.aos.init()
-}
-
-componentDidUpdate() {
-    this.aos.refresh()
-}
+<script>
+   AOS.init();
+ </script>
 
 const Layout = ({ children }) => (
   <StaticQuery
