@@ -13,9 +13,7 @@ import 'aos/dist/aos.css';
 import Header from "./header"
 import "./layout.css"
 
-<script>
-   AOS.init();
- </script>
+
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -30,6 +28,9 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+      <script>
+         AOS.init();
+       </script>
           <Header />
           <main>{children}</main>
           <footer>
