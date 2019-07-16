@@ -8,8 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import Header from "./header"
 import "./layout.css"
 
@@ -28,9 +26,6 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-      <script>
-         AOS.init();
-       </script>
           <Header />
           <main>{children}</main>
           <footer>
