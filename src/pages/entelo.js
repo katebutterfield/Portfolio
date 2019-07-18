@@ -13,18 +13,41 @@ const Entelo = () => (
     <img src={require('../images/entelo-logo.svg')}/>
     <p>Recruiting Automation Platform (Web App)</p>
     </div>
-    <div class="description">
       <div class="entelo-list">
         <ul>
           <li class><h4>ROLE</h4><p>Lead Designer 👩🏻‍💻</p></li>
-          <li class><h4>PROBLEM</h4><p>This page is the first thing the user sees when they log on to Entelo. The old homepage was cluttered with irrelevant information, making it useless to the user. <span class="highlight">It gave no guidance on how to use the product, resulting in low feature usage.</span></p></li>
-          <li class><h4>SOLUTION</h4><p>I designed a dashboard that is personalized to each user, displaying their activity with <span class="highlight">actionable items using customizable widgets.</span>The goal was to transform this page into a 'hub' for the most important information while also driving product adoption</p></li>
+          <li class><h4>BACKGROUND</h4><p>Entelo is a multifaceted platform that plays a part in the daily workflow of recruiters at over 500 organizations. We offer a variety of features to help users find and engage with the best candidates. In conjunction, these features enable to improve and automate the sourcing process.</p></li>
+          </ul>
+          </div>
+          <div class ="before">
+            <h4>Original Homepage</h4>
+            <img class src={require('../images/entelo-old-homepage.jpg')}/>
+          </div>
+          <div class="entelo-list">
+          <ul>
+          <li class><h4>PROBLEM</h4><p>As ‘they’ say, you never get a second chance to make a first impression - The homepage is the first thing a user sees when to log on to Entelo. <span class="highlight">The original page was cluttered with irrelevant information about teammate activity, making it impractical for users and impeding their access to important features.</span> Additionally, it gave no guidance on how to use the product, resulting in low feature usage. So the question became…</p></li>
+          </ul>
+          </div>
+          <div class="questions">
+          <img src={require('../images/animat-lightbulb.gif')}/>
+          <div><h2>How can we help recruiters stay organized and informed while sourcing candidates?</h2>
+          <h2>↓</h2>
+          </div>
+          </div>
+          <div class="entelo-list">
+          <ul>
+          <li class><h4>SOLUTION</h4><p>
+          I decided to approach the problem with 3 main solutions: Personalization, visual hierarchy, and persuasive design.</p>
+          <h5>Personalization:</h5><p> Display elements that are unique to the user, such as their individual projects and stats regarding user activity. This tackles the relevance issue in the original design.</p>
+          <h5>Visual Hierarchy:</h5><p>Following atomic design methodology - I decided to break each section into a separate card/widget to create a dashboard comprised of only important information. Based on user research, the most used features are conveniently placed at the top of the page.
+          </p>
+          <h5>Persuasive Design:</h5><p>Nudging the user towards taking action on certain features produces better feature adoption - I did this by using small notification dots and empty states that show the users what they're missing.
+          </p></li>
           <li class><h4>PROCESS</h4><p>
           Research → Wireframing → Mockups → User Testing → Implementation
           </p></li>
         </ul>
       </div>
-        </div>
         <div class="FeedbackHeader">
           <h2>Tested with real users</h2>
         </div>
@@ -37,16 +60,6 @@ const Entelo = () => (
           <img src={require('../images/surveymonkey-logo.png')}/>
           <p>Technical Sourcer</p>
         </div>
-      </div>
-      <div class ="before">
-        <h2>Original Homepage</h2>
-        <img class src={require('../images/entelo-old-homepage.jpg')}/>
-      </div>
-      <div class="questions">
-      <img src={require('../images/animat-lightbulb.gif')}/>
-      <div><h2>How can we help recruiters stay organized and informed while sourcing candidates?</h2>
-      <h2>↓</h2>
-      </div>
       </div>
       <div class="wireframes">
         <h2>Wireframe</h2>
@@ -73,7 +86,7 @@ const Entelo = () => (
         <p>Gamification encourages users to be more active on the platform. To spark this productivity, I decided to display the user's latest badge along with their progress towards the next one. </p>
         <img src={require('../images/entelo-browser-achievements.jpg')}/>
         <h4>Searches</h4>
-        <p>Some space was preserved to display the user's saved/ recent searches. </p>
+        <p>Some space was preserved to display the user's saved/ recent searches. When talking to users, I determined that they like having the option to access this from the homepage. </p>
         <img src={require('../images/entelo-browser-searches.jpg')}/>
       </div>
     </div>
