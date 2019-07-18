@@ -21,7 +21,7 @@ const Entelo = () => (
           </ul>
           </div>
           <div class ="before">
-            <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>Original Homepage</h4></ScrollAnimation>
+            <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true" offset="180"><h4>Original Homepage</h4></ScrollAnimation>
             <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/entelo-old-homepage.jpg')}/></ScrollAnimation>
           </div>
           <div class="entelo-list">
