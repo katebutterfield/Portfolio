@@ -16,55 +16,55 @@ const Entelo = () => (
     </div>
       <div class="entelo-list">
         <ul>
-          <li class><h4>ROLE</h4><p>Lead Designer 👩🏻‍💻</p></li>
-          <li class><h4>BACKGROUND</h4><p>Entelo is a multifaceted platform that plays a part in the daily workflow of recruiters at over 500 organizations. We offer a variety of features to help users find and engage with the best candidates. In conjunction, these features enable to improve and automate the sourcing process.</p></li>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>ROLE</h4><p>Lead Designer 👩🏻‍💻</p></li></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>BACKGROUND</h4><p>Entelo is a multifaceted platform that plays a part in the daily workflow of recruiters at over 500 organizations. We offer a variety of features to help users find and engage with the best candidates. In conjunction, these features enable to improve and automate the sourcing process.</p></li></ScrollAnimation>
           </ul>
           </div>
           <div class ="before">
-            <h4>Original Homepage</h4>
-            <img class src={require('../images/entelo-old-homepage.jpg')}/>
+            <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>Original Homepage</h4></ScrollAnimation>
+            <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/entelo-old-homepage.jpg')}/></ScrollAnimation>
           </div>
           <div class="entelo-list">
           <ul>
-          <li class><h4>PROBLEM</h4><p>As ‘they’ say, you never get a second chance to make a first impression - The homepage is the first thing a user sees when to log on to Entelo. <span class="highlight">The original page was cluttered with irrelevant information about teammate activity, making it impractical for users and impeding their access to important features.</span> Additionally, it gave no guidance on how to use the product, resulting in low feature usage. So the question became…</p></li>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>PROBLEM</h4><p>As ‘they’ say, you never get a second chance to make a first impression - The homepage is the first thing a user sees when to log on to Entelo. <span class="highlight">The original page was cluttered with irrelevant information about teammate activity, making it impractical for users and impeding their access to important features.</span> Additionally, it gave no guidance on how to use the product, resulting in low feature usage. So the question became…</p></li></ScrollAnimation>
           </ul>
           </div>
           <div class="questions">
-          <img src={require('../images/animat-lightbulb.gif')}/>
-          <div><h2>How can we help recruiters stay organized and informed while sourcing candidates?</h2>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><img src={require('../images/animat-lightbulb.gif')}/></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><div><h2>How can we help recruiters stay organized and informed while sourcing candidates?</h2>
           <h2>↓</h2>
-          </div>
+          </div></ScrollAnimation>
           </div>
           <div class="entelo-list">
           <ul>
-          <li class><h4>SOLUTION</h4><p>
-          I decided to approach the problem with 3 main solutions: Personalization, visual hierarchy, and persuasive design.</p>
-          <h5>Personalization:</h5><p> Display elements that are unique to the user, such as their individual projects and stats regarding user activity. This tackles the relevance issue in the original design.</p>
-          <h5>Visual Hierarchy:</h5><p>Following atomic design methodology - I decided to break each section into a separate card/widget to create a dashboard comprised of only important information. Based on user research, the most used features are conveniently placed at the top of the page.
-          </p>
-          <h5>Persuasive Design:</h5><p>Nudging the user towards taking action on certain features produces better feature adoption - I did this by using small notification dots and empty states that show the users what they're missing.
-          </p></li>
-          <li class><h4>PROCESS</h4><p>
+          <li class><ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>SOLUTION</h4><p>
+          I decided to approach the problem with 3 main solutions: Personalization, visual hierarchy, and persuasive design.</p></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Personalization:</h5><p> Display elements that are unique to the user, such as their individual projects and stats regarding user activity. This tackles the relevance issue in the original design.</p></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Visual Hierarchy:</h5><p>Following atomic design methodology - I decided to break each section into a separate card/widget to create a dashboard comprised of only important information. Based on user research, the most used features are conveniently placed at the top of the page.
+          </p></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Persuasive Design:</h5><p>Nudging the user towards taking action on certain features produces better feature adoption - I did this by using small notification dots and empty states that show the users what they're missing.
+          </p></ScrollAnimation></li>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>PROCESS</h4><p>
           Research → Wireframing → Mockups → User Testing → Implementation
-          </p></li>
+          </p></li></ScrollAnimation>
         </ul>
       </div>
         <div class="FeedbackHeader">
           <h2>Tested with real users</h2>
         </div>
       <div class="feedback">
-        <ScrollAnimation animateIn="fadeInUp" duration=".5"><div class ="uber">
+        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><div class ="uber">
           <img src={require('../images/uber-logo.png')}/>
           <p>Engineering Leadership Sourcer</p>
         </div></ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" duration=".8"><div class ="surveymonkey">
+        <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><div class ="surveymonkey">
           <img src={require('../images/surveymonkey-logo.png')}/>
           <p>Technical Sourcer</p>
         </div></ScrollAnimation>
       </div>
       <div class="wireframes">
-        <h2>Wireframe</h2>
-        <img class src={require('../images/homepage-wireframe.png')}/>
+        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h2>Wireframe</h2></ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/homepage-wireframe.png')}/></ScrollAnimation>
       </div>
     <div class ="ProjectShowcase">
       <div class ="entelo-sticky">
