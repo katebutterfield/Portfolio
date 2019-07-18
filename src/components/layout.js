@@ -13,6 +13,8 @@ import "./layout.css"
 
 
 
+
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`

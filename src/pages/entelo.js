@@ -2,8 +2,9 @@ import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 import SEO from "../components/seo"
-import Nav from '../components/nav'; // You can also use <link> for styles
-// ..
+import Nav from '../components/nav';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 
 const Entelo = () => (
@@ -52,14 +53,14 @@ const Entelo = () => (
           <h2>Tested with real users</h2>
         </div>
       <div class="feedback">
-        <div class ="uber">
+        <ScrollAnimation animateIn="fadeInUp" duration=".5"><div class ="uber">
           <img src={require('../images/uber-logo.png')}/>
           <p>Engineering Leadership Sourcer</p>
-        </div>
-        <div class ="surveymonkey">
+        </div></ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration=".8"><div class ="surveymonkey">
           <img src={require('../images/surveymonkey-logo.png')}/>
           <p>Technical Sourcer</p>
-        </div>
+        </div></ScrollAnimation>
       </div>
       <div class="wireframes">
         <h2>Wireframe</h2>
@@ -109,6 +110,7 @@ const Entelo = () => (
   /></Link>
     </div>
     </div>
+
   </Layout>
 )
 
