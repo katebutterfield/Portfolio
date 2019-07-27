@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Nav from '../components/nav';
 import { Link } from "gatsby"
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 
 const EmployStream = () => (
@@ -15,18 +17,18 @@ const EmployStream = () => (
     <div class="description">
       <div class="es-list">
         <ul>
-          <li><h4>ROLE</h4><p>Lead Designer/Project Manager 👩🏻‍💻</p></li>
-          <li><h4>PROBLEM</h4><p>EmployStream's Customer Success team was spending hours on the phone training each customer how to build forms for contracts, payroll, and new hire onboarding. In fact, the company created an entire job dedicated to building forms for customers because the old tool was time consuming, difficult to use, and involved a steep learning curve.</p></li>
-          <li><h4>SOLUTION</h4><p>I did a complete overhaul of the form building process, transforming the product into a self-serving and visual way for staffing firms to build forms. I decided on a drag-and-drop format which allows each field type to act as a building block on the page, a concept that is easy to grasp even with no technical background.</p></li>
-          <li><h4>PROCESS</h4><p>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>ROLE</h4><p>Lead Designer/Project Manager 👩🏻‍💻</p></li></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>PROBLEM</h4><p>EmployStream's Customer Success team was spending hours on the phone training each customer how to build forms for contracts, payroll, and new hire onboarding. In fact, the company created an entire job dedicated to building forms for customers because <span class="es-highlight">the old tool was time consuming, difficult to use, and involved a steep learning curve.</span></p></li></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>SOLUTION</h4><p>I did a complete overhaul of the form building process, transforming the product into <span class="es-highlight">a self-serving and visual way for staffing firms to build forms.</span> I decided on a drag-and-drop format which allows each field type to act as a building block on the page, a concept that is easy to grasp even with no technical background.</p></li></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>PROCESS</h4><p>
           Research → Whiteboarding/Wireframing → Mockups → Iteration, Iteration, Iteration → Implementation
-          </p></li>
+          </p></li></ScrollAnimation>
         </ul>
       </div>
         </div>
       <div class="wireframes">
-        <h2>Wireframe</h2>
-        <img src={require('../images/form-wireframe.png')}/>
+        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h2>Wireframe</h2></ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img src={require('../images/form-wireframe.png')}/></ScrollAnimation>
       </div>
     <div class ="ProjectShowcase">
       <div class ="es-sticky">

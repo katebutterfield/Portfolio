@@ -1288,6 +1288,20 @@ li {
     animation-fill-mode: forwards;
 }
 
+.es-highlight {
+  padding: 4px 4px;
+  border-radius: 5px;
+  background: linear-gradient(to right, rgba(240, 90, 40 ,0)50%, rgba(219, 244, 222,1)50%);
+  background-size: 200%;
+  background-position: 0 0;
+  animation-name: highlights;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
 
 @keyframes highlights {
     from {
