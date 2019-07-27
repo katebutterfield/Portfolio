@@ -39,10 +39,10 @@ const Entelo = () => (
           <ul>
           <li class><ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>SOLUTION</h4><p>
           I decided to approach the problem with 3 main solutions: Personalization, visual hierarchy, and persuasive design.</p></ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Personalization:</h5><p> Display elements that are unique to the user, such as their individual projects and stats regarding user activity. This tackles the relevance issue in the original design.</p></ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Visual Hierarchy:</h5><p>Following atomic design methodology - I decided to break each section into a separate card/widget to create a dashboard comprised of only important information. Based on user research, the most used features are conveniently placed at the top of the page.
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Personalization:</h5><p> <span class="highlight">Display elements that are unique to the user</span>, such as their individual projects and stats regarding user activity. This tackles the relevance issue in the original design.</p></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Visual Hierarchy:</h5><p>Following atomic design methodology - I decided to break each section into a separate card/widget to create a dashboard comprised of only important information. Based on user research, the <span class="highlight">most used features are conveniently placed at the top of the page.</span>
           </p></ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Persuasive Design:</h5><p>Nudging the user towards taking action on certain features produces better feature adoption - I did this by using small notification dots and empty states that show the users what they're missing.
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Persuasive Design:</h5><p><span class="highlight">Nudging the user towards taking action on certain features</span> results in increased feature adoption - I did this by using small notification dots and empty states that show the users what they're missing.
           </p></ScrollAnimation></li>
           <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>PROCESS</h4><p>
           Research → Wireframing → Mockups → User Testing → Implementation

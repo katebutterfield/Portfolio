@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Nav from '../components/nav';
 import { Link } from "gatsby"
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 const ClassHook = () => (
   <Layout>
@@ -14,25 +16,69 @@ const ClassHook = () => (
     <div class="description">
       <div class="classhook-list">
         <ul>
-          <li><h4>ROLE</h4><p>Design Contractor - I was brought on the ClassHook team to transform the product in 4 weeks.</p></li>
-          <li><h4>PROBLEM</h4><p>ClassHook offers a variety of features to help teachers find and organize clips including playlists, bookmarks, pause prompts, and more. Due to discoverability and usability issues, users weren't taking advantage of these features, resulting in a lack of activity for about 80% of the site's functionality. For example playlists (a main product feature) were only viewed by users about 110 times in 2 months.</p></li>
-          <li><h4>SOLUTION</h4><p>The goal of this redesign was to increase feature activity and grow the number of monthly active users. To meet this goal, I increased discoverability of all features and emphasized personalization by adding recommended clips throughout the site. By doing this, ClassHook is able to nudge teachers towards clips that are relevant to them while also giving them the freedom to browse clips and discover their own.</p></li>
-          <li><h4>PROCESS</h4><p>
-          Consultation → Ideation → Mockups → Design Reviews → Iteration → Implementation
-          </p></li>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>ROLE</h4><p>Design Contractor - I was brought on the ClassHook team to transform the product in 4 weeks. Worked directly with the co-founders throughout the design and implementation process.</p></li></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>BACKGROUND</h4><p>ClassHook is a platform that uses the ‘popular media’ pedagogy to help teachers engage their students. Educators use the site to discover short clips from popular TV shows and movies, such as Friends or The Big Bang Theory, that relate to a particular subject. They can also create playlists, add pause prompts (embedded quizzes), and post discussion questions to further the experience.</p></li></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>PROBLEM</h4><p>The original site was an MVP version using Bootstrap 3, and needed a major UX/UI refresh. <span class="classhook-highlight">The old experience created friction within the onboarding experience that prevented users from signing up and resulted in low feature engagement.</span> For example playlists (a main product feature) were only viewed by users about 110 times in 2 months.</p></li></ScrollAnimation>
+          </ul>
+          </div>
+          <div class="ch-questions">
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><img src={require('../images/animat-pencil.gif')}/></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><div><h2>Educators are not always the most tech-savvy people.
+          <br/>
+          <br/>
+          How can I design an interface that showcases all product features, while maintaining an intuitive experience for an educator?
+          </h2>
+          <h2>↓</h2>
+          </div></ScrollAnimation>
+          </div>
+          <div class="classhook-list">
+            <ul>
+            <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>SOLUTION</h4><p>
+            I tackled the redesign in phases, going through my design process for each page or element that I was assigned. There are a few overarching themes across these pages that I used to address the core problem.
+            </p></li></ScrollAnimation>
+            <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h5>Discovery:</h5><p> I studied other video platforms like YouTube and Netflix to evaluate their video discovery techniques. According to <a href="https://creatoracademy.youtube.com/page/lesson/discovery#strategies-zippy-link-3" target="_blank">YouTube Creator Academy</a>, <span class="classhook-highlight">"Studies of YouTube consumption have shown that viewers tend to watch a lot more when they get recommendations from a variety of channels." </span> I treated suggested or related clips with high priority throughout the site, with the intention of helping users find the content they need and maximizing their engagement with the platform.</p></li></ScrollAnimation>
+            <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h5>Dynamic Page Layout:</h5><p>Prior to my redesign, everything on ClassHook was displayed within one single container on the page - There was little visual hierarchy. To combat this<span class="classhook-highlight">I created separate containers for different components on the page and organized them in a way that follows the natural pattern of the eye.</span>
+            </p></li></ScrollAnimation>
+            </ul>
+            </div>
+            </div>
+            <div class="ch-before-after">
+              <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true">
+              <div class="ch-before">
+              <h5>Before</h5>
+              <img class src={require('../images/classhook-clipview-before.jpg')}/>
+              </div>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeInUp" duration="1" animateOnce="true">
+              <div class="ch-after">
+              <h5>After</h5>
+              <img class src={require('../images/classhook-clipview-after.jpg')}/>
+              </div>
+              </ScrollAnimation>
+            </div>
+            <div class="description">
+            <div class="classhook-list">
+              <ul>
+            <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>PROCESS</h4><p>
+            Consultation → Ideation → Mockups → Design Reviews → Iteration → Implementation
+            </p></li></ScrollAnimation>
         </ul>
       </div>
-        </div>
+      </div>
+      <div class="flowchart">
+        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h2>Onboarding Flowchart</h2></ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/classhook-onboarding-flowchart.jpg')}/></ScrollAnimation>
+      </div>
         <div class="AlexFeedbackHeader">
-          <h2>A note from the founder</h2>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h2>A note from the founder</h2></ScrollAnimation>
         </div>
       <div class="alex-feedback">
-        <div class ="alex-card">
+        <ScrollAnimation animateIn="fadeInUp" duration="1" animateOnce="true"><div class ="alex-card">
           <img src={require('../images/alex-profile.jpeg')}/>
           <h4>Alex Deeb</h4>
           <h5>Co-Founder, CEO</h5>
           <p>"Before starting any work, Kate asked questions to understand the project and the requirements. During our conversation, it was evident that she has a strong understanding of UI/UX design and the design process. Once the project began, it felt like a collaborative effort, which I appreciated. Kate was highly communicative and was always available to answer any questions. Although I felt we had aggressive design deadlines, Kate met them all without any issues. I don't understand how she works so quickly without sacrificing quality! We made changes to the requirements at several points during the project, but Kate adapted her designs seamlessly to fit them."</p>
-        </div>
+        </div></ScrollAnimation>
       </div>
     <div class ="ProjectShowcase">
       <div class ="classhook-sticky">
@@ -56,7 +102,6 @@ const ClassHook = () => (
         <img src={require('../images/classhook-view-clip.jpg')}/>
         <h4>Onboarding</h4>
         <p>I reconfigured the ClassHook sign-up process by breaking it into steps that were easily digestible for the user. I started by mapping out the entire onboarding flow on a flowchart, then creating separate mockups for each step.</p>
-        <img src={require('../images/classhook-onboarding-flowchart.jpg')}/>
         <img src={require('../images/classhook-signup.jpg')}/>
         <h5>Want to see more from this project?   <a href="mailto:katebutterfield.design@gmail.com">          Request full InVision Link</a></h5>
 

@@ -752,6 +752,70 @@ li {
   max-width: 100px;
 }
 
+.ch-questions {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 80%;
+  color: #F05A28;
+}
+
+.ch-questions img {
+  max-width: 100px;
+}
+
+.ch-before-after {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ch-before img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  min-width: 80%;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.ch-before h5 {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #888888;
+}
+
+.ch-after h5 {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #888888;
+}
+
+.ch-after img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  min-width: 80%;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
 .before img {
   max-width: 65%;
   min-width: 60%;
@@ -778,6 +842,24 @@ li {
   max-height: 900px;
   width: 100%;
   margin-bottom: 50px;
+}
+
+
+.flowchart img {
+  max-width: 80%;
+  min-width: 50%;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.flowchart h2 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 /* Employstream Page */
@@ -1184,6 +1266,19 @@ li {
   padding: 4px 4px;
   border-radius: 5px;
   background: linear-gradient(to right, rgba(74, 144, 226,0)50%, rgba(226, 237, 250,1)50%);
+  background-size: 200%;
+  background-position: 0 0;
+  animation-name: highlights;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.classhook-highlight {
+  padding: 4px 4px;
+  border-radius: 5px;
+  background: linear-gradient(to right, rgba(240, 90, 40 ,0)50%, rgba(255, 220, 208,1)50%);
   background-size: 200%;
   background-position: 0 0;
   animation-name: highlights;
