@@ -63,7 +63,7 @@ const Entelo = () => (
         </div></ScrollAnimation>
       </div>
       <div class="wireframes">
-        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h2>Wireframe</h2></ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>Wireframe</h4></ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/homepage-wireframe.png')}/></ScrollAnimation>
       </div>
     <div class ="ProjectShowcase">

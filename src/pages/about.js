@@ -26,7 +26,7 @@ const About = () => (
 			<div class="social">
       <a href="https://www.linkedin.com/in/kate-butterfield/" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
       <a href="https://dribbble.com/katebutter" target="_blank"><FontAwesomeIcon icon={['fab', 'dribbble']} /></a>
-      <a href="https://www.behance.net/butterk28f56" target="_blank"><FontAwesomeIcon icon={['fab', 'behance']} /></a>
+      <a href="https://medium.com/@katebutterfield.design" target="_blank"><FontAwesomeIcon icon={['fab', 'medium']} /></a>
       </div>
       </div>
       <div class="info-card">
@@ -39,7 +39,7 @@ const About = () => (
           I'm a naturally collaborative person and value my relationships with product stakeholders, teammates, and users. <span class="highlight">I'm driven by innovation and excited by the opportunity to help scale a solution by making informed and deliberate design decisions. </span>
           <br/>
           <br/>
-          In my free time you can find me exploring San Francisco, grabbing coffee, or reading up on design trends from my <a href="https://muz.li/" target="_blank">'secret source'</a>. 
+          In my free time you can find me exploring San Francisco, grabbing coffee, or reading up on design trends from my <a href="https://muz.li/" target="_blank">'secret source'</a>.
           </p>
         </div>
       </div>
