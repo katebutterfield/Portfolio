@@ -25,7 +25,7 @@ const HSAD = () => (
       </div>
         </div>
       <div class="wireframes">
-        <h2>Branding</h2>
+        <h4>Branding</h4>
         <img src={require('../images/hsad-branding.png')}/>
       </div>
     <div class ="ProjectShowcase">

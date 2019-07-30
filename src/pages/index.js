@@ -23,7 +23,7 @@ const IndexPage = () => (
     </div>
     <div className="Cards">
     <div className="CardGroup">
-    <a href="https://medium.com/@katebutterfield.design/building-a-design-system-from-scratch-ae6ffda515b5?source=friends_link&sk=ee168b484339bc29db2ad13412fbb44b"><Card
+    <a href="https://medium.com/@katebutterfield.design/building-a-design-system-from-scratch-ae6ffda515b5?source=friends_link&sk=ee168b484339bc29db2ad13412fbb44b" target="_blank"><Card
       title="Design System"
       text="1 Project"
       image={require('../images/design-system.jpg')}

@@ -14,15 +14,31 @@ const Entelo = () => (
     <img src={require('../images/entelo-logo.svg')}/>
     <p>Recruiting Automation Platform (Web App)</p>
     </div>
-      <div class="entelo-list">
+      <div class="entelo-context">
+      <div class="entelo-context-left">
         <ul>
           <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>ROLE</h4><p>Lead Designer 👩🏻‍💻</p></li></ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>BACKGROUND</h4><p>Entelo is a multifaceted platform that plays a part in the daily workflow of recruiters at over 500 organizations. We offer a variety of features to help users find and engage with the best candidates. In conjunction, these features enable to improve and automate the sourcing process.</p></li></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>BACKGROUND</h4><p>Entelo is a multifaceted platform that plays a part in the daily workflow of recruiters at over 500 organizations. We offer a variety of features to help users find and engage with the best candidates. In conjunction, these features enable users to improve and automate the sourcing process.</p></li></ScrollAnimation>
           </ul>
+          </div>
+          <div class="entelo-context-right">
+            <ul>
+              <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>TIMELINE</h4><p>Started Jan 2019 <br/>
+              Refined June 2019
+              </p></li></ScrollAnimation>
+              <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>TEAM</h4>
+              <p>2 Product Managers <br/>
+              3-4 Engineers
+              </p></li></ScrollAnimation>
+              <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>TOOLS</h4><p>Sketch, InVision</p></li></ScrollAnimation>
+              </ul>
+              </div>
           </div>
           <div class ="before">
             <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true" offset="180"><h4>Original Homepage</h4></ScrollAnimation>
             <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/entelo-old-homepage.jpg')}/></ScrollAnimation>
+            <div class="pulsating-circle-3"></div>
+            <div class="image-notes-3"><h5>No personalized info ↓</h5></div>
           </div>
           <div class="entelo-list">
           <ul>
@@ -31,7 +47,7 @@ const Entelo = () => (
           </div>
           <div class="questions">
           <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><img src={require('../images/animat-lightbulb.gif')}/></ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><div><h2>How can we help recruiters stay organized and informed while sourcing candidates?</h2>
+          <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><div><h2>How can I help recruiters stay organized and informed while sourcing candidates?</h2>
           <h2>↓</h2>
           </div></ScrollAnimation>
           </div>
@@ -49,6 +65,28 @@ const Entelo = () => (
           </p></li></ScrollAnimation>
         </ul>
       </div>
+      <div class="wireframes">
+        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>Wireframe</h4></ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/homepage-wireframe.png')}/></ScrollAnimation>
+      </div>
+      <div class="es-before-after">
+        <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true">
+        <div class="es-before">
+        <h5>1st Iteration</h5>
+        <img class src={require('../images/entelo-iteration-1.jpg')}/>
+        </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration="1" animateOnce="true">
+        <div class="es-after">
+        <h5>2nd Iteration</h5>
+        <img class src={require('../images/entelo-iteration-2.jpg')}/>
+        <div class="pulsating-circle-4"></div>
+        <div class="image-notes-4"><h5>Even columns,
+        <br/>most valuable <br/>features
+        <br/>at the top →</h5></div>
+        </div>
+        </ScrollAnimation>
+      </div>
         <div class="FeedbackHeader">
           <h2>Tested with real users</h2>
         </div>
@@ -62,10 +100,7 @@ const Entelo = () => (
           <p>Technical Sourcer</p>
         </div></ScrollAnimation>
       </div>
-      <div class="wireframes">
-        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>Wireframe</h4></ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/homepage-wireframe.png')}/></ScrollAnimation>
-      </div>
+
     <div class ="ProjectShowcase">
       <div class ="entelo-sticky">
         <h2>Final Product</h2>
