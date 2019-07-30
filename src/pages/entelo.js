@@ -18,7 +18,7 @@ const Entelo = () => (
       <div class="entelo-context-left">
         <ul>
           <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>ROLE</h4><p>Lead Designer 👩🏻‍💻</p></li></ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>BACKGROUND</h4><p>Entelo is a multifaceted platform that plays a part in the daily workflow of recruiters at over 500 organizations. We offer a variety of features to help users find and engage with the best candidates. In conjunction, these features enable users to improve and automate the sourcing process.</p></li></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>BACKGROUND</h4><p>Entelo is a multifaceted platform that plays a part in the daily workflow of recruiters at over 500 organizations. We offer a variety of features to help users find and engage with the best candidates.</p></li></ScrollAnimation>
           </ul>
           </div>
           <div class="entelo-context-right">
@@ -34,12 +34,14 @@ const Entelo = () => (
               </ul>
               </div>
           </div>
+
           <div class ="before">
             <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true" offset="180"><h4>Original Homepage</h4></ScrollAnimation>
             <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/entelo-old-homepage.jpg')}/></ScrollAnimation>
             <div class="pulsating-circle-3"></div>
             <div class="image-notes-3"><h5>No personalized info ↓</h5></div>
           </div>
+
           <div class="entelo-list">
           <ul>
           <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>PROBLEM</h4><p>As ‘they’ say, you never get a second chance to make a first impression - The homepage is the first thing a user sees when to log on to Entelo. <span class="highlight">The original page was cluttered with irrelevant information about teammate activity, making it impractical for users and impeding their access to important features.</span> Additionally, it gave no guidance on how to use the product, resulting in low feature usage. So the question became…</p></li></ScrollAnimation>
@@ -87,6 +89,26 @@ const Entelo = () => (
         </div>
         </ScrollAnimation>
       </div>
+
+      <div class="es-before-after">
+        <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true">
+        <div class="entelo-before">
+        <h5>1st Iteration</h5>
+        <img class src={require('../images/projects-iteration-1.jpg')}/>
+        </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration="1" animateOnce="true">
+        <div class="entelo-after">
+        <h5>2nd Iteration</h5>
+        <img class src={require('../images/projects-iteration-2.png')}/>
+        <div class="pulsating-circle-5"></div>
+        <div class="image-notes-5"><h5>Less ambiguous copy</h5></div>
+        <div class="pulsating-circle-6"></div>
+        <div class="image-notes-6"><h5>Clear<br/>links →</h5></div>
+        </div>
+        </ScrollAnimation>
+      </div>
+
         <div class="FeedbackHeader">
           <h2>Tested with real users</h2>
         </div>
@@ -100,10 +122,13 @@ const Entelo = () => (
           <p>Technical Sourcer</p>
         </div></ScrollAnimation>
       </div>
+      <div class="FeedbackFooter">
+        <p>+ more!</p>
+      </div>
 
       <div class="entelo-list">
       <ul>
-      <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>USER FEEDBACK AND REFINED FEATURES</h4><p>Our insightful users told us <span class="highlight">they loved the redesign, but had a few things to add.</span> They didn't find the activity widget useful, and would love to see that real estate filled with reporting, or maybe Envoy (AI automated sourcing). They questioned the 'suggested candidates' at first, but were intruiged once the intention was further explained.</p>
+      <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>USER FEEDBACK AND REFINED FEATURES</h4><p>Our insightful users told us <span class="highlight">they loved the redesign, but had a few things to add.</span> They didn't find the activity widget useful, and would love to see that real estate filled with reporting, or maybe Envoy (AI automated sourcing). They questioned the 'suggested candidates' at first, but were intrigued once the intention was further explained.</p>
       <h5>Overall, positive feedback 👍</h5>
       </li></ScrollAnimation>
       </ul>
@@ -131,18 +156,25 @@ const Entelo = () => (
         <p>Users love tracking their engagement on messages sent to candidates, so I bundled the most important stats and activity regarding their messaging to display on the homepage.</p>
         <img src={require('../images/entelo-browser-messaging.jpg')}/>
         <h4>Activity</h4>
-        <p>For some familiarity to the old homepage, I kept an activity feed on the page to show users how other people on their team are currently using Entelo.</p>
+        <p>After multiple iterations and rounds of testing, I came up with the final version of this widget, which displays a snippet of reporting for the user's activity within the last 30 days.</p>
         <img src={require('../images/entelo-browser-activity.jpg')}/>
         <h4>Achievements</h4>
         <p>Gamification encourages users to be more active on the platform. To spark this productivity, I decided to display the user's latest badge along with their progress towards the next one. </p>
         <img src={require('../images/entelo-browser-achievements.jpg')}/>
         <h4>Searches</h4>
-        <p>Some space was preserved to display the user's saved/ recent searches. When talking to users, I determined that they like having the option to access this from the homepage. </p>
+        <p>When talking to users, I determined that they like having the option to access this from the homepage. They can use the dropdown menu at the top to switch between their saved and recent searches.</p>
         <img src={require('../images/entelo-browser-searches.jpg')}/>
       </div>
     </div>
     <div class="mockup">
-      <img src={require('../images/entelo-mockup.jpg')}/>
+      <div class="entelo-list">
+      <ul>
+        <li class><ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>IMPLEMENTATION & KEY METRICS</h4><p>
+        Due to changes in priorities, the Homepage was pushed back to a later date and is currently in development. 
+        Metrics I'll note once it's resleased are - Engagement rates with Projects and Track Messaging, as well as number of achievements.
+        </p></ScrollAnimation></li>
+        </ul>
+        </div>
     </div>
     <div class="project-nav">
     <div class ="previous-project">

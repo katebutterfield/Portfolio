@@ -15,9 +15,30 @@ const EmployStream = () => (
     <p>Onboarding and Engagement for Staffing (Web App)</p>
     </div>
     <div class="description">
+
+    <div class="es-context">
+    <div class="es-context-left">
+      <ul>
+        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>ROLE</h4><p>Lead Designer/ Project Manager 👩🏻‍💻</p></li></ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>BACKGROUND</h4><p>EmployStream is an onboarding automation and candidate engagement platform for Staffing agencies. The admin tool (Workflow Manager) gives users an easy way to manage applications and onboarding documents.<span class="es-highlight"> Unfortunately, this requires the process of converting paper forms into digital ones, which can be quite a hassle.</span></p></li></ScrollAnimation>
+        </ul>
+        </div>
+        <div class="es-context-right">
+          <ul>
+            <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>TIMELINE</h4><p>June 2018 <br/>
+            1 month
+            </p></li></ScrollAnimation>
+            <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>TEAM</h4>
+            <p>CTO, Founder (Manager) <br/>
+            1 Developer
+            </p></li></ScrollAnimation>
+            <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>TOOLS</h4><p>Sketch, Anima Toolkit</p></li></ScrollAnimation>
+            </ul>
+            </div>
+        </div>
+
       <div class="es-list">
         <ul>
-          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>BACKGROUND</h4><p>EmployStream is an onboarding automation and candidate engagement platform for Staffing agencies. The admin tool (Workflow Manager) gives users an easy way to manage applications and onboarding documents.<span class="es-highlight"> Unfortunately, this requires the process of converting paper forms into digital ones, which can be quite a hassle.</span></p></li></ScrollAnimation><ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>ROLE</h4><p>Lead Designer/Project Manager - I was originally approached by my team to design a small new feature. While testing, I noticed how frustrating of an experience it was to build a simple form, so I proposed that I redesign the whole thing. (Spoiler alert: my manager agreed!)‍</p></li></ScrollAnimation>
           <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>PROBLEM</h4><p>EmployStream's Customer Success team was spending hours on the phone training each customer how to build forms for contracts, payroll, and new hire onboarding. In fact, the company created an entire job dedicated to building forms for customers because <span class="es-highlight">the old tool was time consuming, difficult to use, and involved a steep learning curve. </span></p></li></ScrollAnimation>
           </ul>
           </div>
@@ -35,12 +56,9 @@ const EmployStream = () => (
           Research → Whiteboarding/Wireframing → Mockups → Iteration, Iteration, Iteration → Implementation
           </p></li></ScrollAnimation>
           <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>RESEARCH</h4><p>I started by talking to users about their pain points when constructing a form with the original form builder. Then, I headed to<a href="https://www.fullstory.com/" target="_blank"> FullStory</a> to take some notes on how users were currently interacting with the tool. Some feedback I collected:</p>
-          <h5>· Lack of control over the layout of the page
-          <br/>
-          · Confusing interface - All field types look the same
-          <br/>
-          · Long, manual process with required training session</h5>
-          <br/>
+          <h5> Lack of control over the layout of the page</h5>
+          <h5>Confusing interface - All field types look the same</h5>
+          <h5>Long, manual process with required training session</h5>
           </li></ScrollAnimation>
         </ul>
       </div>
@@ -50,6 +68,21 @@ const EmployStream = () => (
       <a href="https://www.g2.com/products/employstream/reviews/employstream-review-1025960" target="_blank"> G2 Review</a>
       </div></ScrollAnimation>
       </div>
+        </div>
+        <div class="description">
+        <div class="es-list">
+        <ul>
+          <li class><ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>SOLUTION</h4><p>
+          I decided to approach the problem with 3 main solutions: </p></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Field Type Visualization:</h5><p> <span class="es-highlight">I associated a different icon with each field type (Paragraph, Date, Money, etc.)</span>, which will reduce confusion when interacting with them.</p></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/es-field-types.jpg')}/></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Drag & Drop Functionality:</h5><p>I decided on a <span class="es-highlight">drag-and-drop system - a visual way to interact with the interface</span> that displays a clear landing area for each field.
+          </p></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h5>Customization:</h5><p>Users should have the freedom to customize the layout of the page to their liking. I planned for this in my design process, and came up with a feature that <span class="es-highlight">allows users to switch between a single or double column field</span> (Dev team said no to more than 2 columns).
+          </p></ScrollAnimation>
+          </li>
+          </ul>
+        </div>
         </div>
         <div class="description">
           <div class="es-list">
@@ -62,6 +95,7 @@ const EmployStream = () => (
         <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>Wireframe</h4></ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img src={require('../images/form-wireframe.png')}/></ScrollAnimation>
       </div>
+
       <div class="es-before-after">
         <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true">
         <div class="es-before">
