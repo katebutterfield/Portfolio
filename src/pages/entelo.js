@@ -170,8 +170,8 @@ const Entelo = () => (
       <div class="entelo-list">
       <ul>
         <li class><ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>IMPLEMENTATION & KEY METRICS</h4><p>
-        Due to changes in priorities, the Homepage was pushed back to a later date and is currently in development. 
-        Metrics I'll note once it's resleased are - Engagement rates with Projects and Track Messaging, as well as number of achievements.
+        Due to changes in priorities, the Homepage was pushed back to a later date and is currently in development.
+        Metrics I'll measure once it's released are - Engagement rates with Projects and Track Messaging, as well as number of achievements (via Mode).
         </p></ScrollAnimation></li>
         </ul>
         </div>
