@@ -101,6 +101,21 @@ const Entelo = () => (
         </div></ScrollAnimation>
       </div>
 
+      <div class="entelo-list">
+      <ul>
+      <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>USER FEEDBACK AND REFINED FEATURES</h4><p>Our insightful users told us <span class="highlight">they loved the redesign, but had a few things to add.</span> They didn't find the activity widget useful, and would love to see that real estate filled with reporting, or maybe Envoy (AI automated sourcing). They questioned the 'suggested candidates' at first, but were intruiged once the intention was further explained.</p>
+      <h5>Overall, positive feedback 👍</h5>
+      </li></ScrollAnimation>
+      </ul>
+      </div>
+
+      <div class="questions">
+      <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><img src={require('../images/animat-customize.gif')}/></ScrollAnimation>
+      <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><div><h2>After a bit of refactoring, I came up with the final, high fidelity mocks</h2>
+      <h2>↓</h2>
+      </div></ScrollAnimation>
+      </div>
+
     <div class ="ProjectShowcase">
       <div class ="entelo-sticky">
         <h2>Final Product</h2>

@@ -744,6 +744,12 @@ li {
   color: #4A90E2;
 }
 
+.entelo-list li h5 {
+  border-left: 6px solid #4A90E2;
+  padding-left: 28px;
+  margin-bottom: 35px;
+}
+
 .entelo-list li p {
   margin-top: -30px;
   color: rgba(0, 0, 0, 0.8);
