@@ -40,6 +40,10 @@ const ClassHook = () => (
           <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true" offset="180"><h4>Original ClassHook Homepage</h4></ScrollAnimation>
           <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/classhook-original-homepage.jpg')}/></ScrollAnimation>
         </div>
+        <div class ="before">
+          <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true" offset="180"><h4>Original ClassHook Sign-Up Page</h4></ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/classhook-onboarding-before.jpg')}/></ScrollAnimation>
+        </div>
 
       <div class="description">
       <div class="classhook-list">
@@ -91,10 +95,12 @@ const ClassHook = () => (
         </ul>
       </div>
       </div>
+
       <div class="flowchart">
-        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>Onboarding Flowchart</h4></ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>New Onboarding Flowchart</h4></ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><img class src={require('../images/classhook-onboarding-flowchart.jpg')}/></ScrollAnimation>
       </div>
+
         <div class="AlexFeedbackHeader">
           <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h2>A note from the founder</h2></ScrollAnimation>
         </div>

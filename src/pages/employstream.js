@@ -144,7 +144,7 @@ const EmployStream = () => (
         <img src={require('../images/form-logic.jpg')}/>
       </div>
     </div>
-    <div class="mockup">
+    <div class="es-mockup">
       <img src={require('../images/form-footer.jpg')}/>
     </div>
     <div class="project-nav">

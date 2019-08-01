@@ -1033,6 +1033,12 @@ li {
   margin-top: -80px;
 }
 
+.es-mockup img {
+  max-height: 900px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
 
 .flowchart img {
   max-width: 80%;
