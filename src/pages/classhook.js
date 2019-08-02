@@ -49,6 +49,7 @@ const ClassHook = () => (
       <div class="classhook-list">
         <ul>
         <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>PROBLEM</h4><p>The original site was an MVP version using Bootstrap 3, and needed a major UX/UI refresh. <span class="classhook-highlight">The old experience created friction within the onboarding experience that prevented users from signing up and resulted in low feature engagement.</span> For example, playlists (a main product feature) were only viewed by users about 110 times in 2 months.</p></li></ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li><h4>GOALS</h4><p>The main goals for this redesign were to <span class="classhook-highlight">increase engagement, encourage Premium purchases, and increase sign up rates.</span><ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><img src={require('../images/classhook-goals.png')}/></ScrollAnimation></p></li></ScrollAnimation>
           </ul>
           </div>
           <div class="ch-questions">

@@ -1467,6 +1467,11 @@ li {
   }
 }
 
+.classhook-list li img {
+  max-width: 900px;
+  margin-top: 50px;
+}
+
 .classhook-list li h4 {
   color: #F1592A;
 }
