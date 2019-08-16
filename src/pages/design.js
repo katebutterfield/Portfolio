@@ -16,7 +16,7 @@ const Design = () => (
     <div>
   <section class="projects">
     <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><div><Link to="/entelo"><Project
-    title="Homepage"
+    title="Entelo Homepage"
     subtitle="UX/UI Design · User Research · Prototyping"
     text="I redesigned the Entelo Homepage to optimize for user retention and a better workflow."
     image={require('../images/entelo-cover.jpg')}
