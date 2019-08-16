@@ -12,7 +12,7 @@ import "animate.css/animate.min.css"; // You can also use <link> for styles
 
 const Design = () => (
   <Layout>
-    <SEO title="Design" />
+    <SEO title="Case Studies" />
     <div>
   <section class="projects">
     <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><div><Link to="/entelo"><Project
