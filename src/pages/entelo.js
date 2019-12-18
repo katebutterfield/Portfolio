@@ -170,8 +170,7 @@ const Entelo = () => (
       <div class="entelo-list">
       <ul>
         <li class><ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>IMPLEMENTATION & KEY METRICS</h4><p>
-        Due to changes in priorities, the Homepage was pushed back to a later date and is currently in development.
-        Metrics I'll measure once it's released are - Engagement rates with Projects and Track Messaging, as well as number of achievements (via Mode).
+        After releasing the new Homepage to all users, it was very well received. According to FullStory event funnels, homepage engagement increased by 20%.
         </p></ScrollAnimation></li>
         </ul>
         </div>
