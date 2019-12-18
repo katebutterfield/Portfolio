@@ -5,6 +5,11 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Card from '../components/card';
+import LazyLoad from 'react-lazy-load'
+import Project from '../components/project';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css"; // You can also use <link> for styles
+// ..
 
 const IndexPage = () => (
   <Layout>
@@ -12,33 +17,48 @@ const IndexPage = () => (
     <div>
     <div className="Hero">
         <div className="HeroGroup">
-          <h1>Kate Butterfield --
+          <h1>Kate
           </h1>
-          <div className="Kate">Portfolio</div>
-          <p>I design <span class="highlight">thoughtful digital experiences</span>, and
-          <br/>have fun while I do it.</p>
-          <Link to="/design">See for yourself →</Link>
+          <div className="Kate">Butterfield</div>
+          <p><span class="highlight">Product Designer</span> and expert coffee drinker.
+          </p>
+          <Link to="/design">See for yourself <br/>↓</Link>
+
     </div>
     </div>
     </div>
-    <div className="Cards">
-    <div className="CardGroup">
-    <a href="https://medium.com/@katebutterfield.design/building-a-design-system-from-scratch-ae6ffda515b5?source=friends_link&sk=ee168b484339bc29db2ad13412fbb44b" target="_blank"><Card
-      title="Design System"
-      text="1 Project"
-      image={require('../images/design-system.jpg')}
-    /></a>
-    <Link to="/mentors"><Card
-      title="Interaction Design"
-      text="1 Project"
-      image={require('../images/interaction-design.jpg')}
-    /></Link>
-    <Link to="/hsad"><Card
-      title="Mobile App Design"
-      text="1 Project"
-      image={require('../images/mobile-design.jpg')}
-    /></Link>
-    </div>
+
+    <div>
+  <section class="projects">
+    <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><div><Link to="/entelo"><Project
+    title="Entelo Homepage"
+    subtitle="UX/UI Design · User Research · Prototyping"
+    text="I redesigned the Entelo Homepage to optimize for user retention and a better workflow."
+    image={require('../images/entelo-cover.jpg')}
+  /></Link>
+  </div></ScrollAnimation>
+   <ScrollAnimation animateIn="fadeInUp" duration=".6" animateOnce="true"><div><Link to="/classhook"><Project
+    title="Site Redesign"
+    subtitle="UX/UI Design · Flowchart · Grid Layout"
+    text="I did a complete overhaul of the main pages on the ClassHook site with the goal of increasing MAU."
+    image={require('../images/classhook-cover.jpg')}
+  /></Link>
+  </div></ScrollAnimation>
+   <ScrollAnimation animateIn="fadeInUp" duration=".7" animateOnce="true" offset="20"><div><Link to="/employstream"><Project
+    title="Form Configuration"
+    subtitle="UX/UI Design · Animation · Interaction Design"
+    text="I created a self-serving form builder for EmployStream's web app that cut down on time spent training new users."
+    image={require('../images/es-cover.jpg')}
+  /></Link>
+  </div></ScrollAnimation>
+   <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true" offset="20"><div><Link to="/hsad"><Project
+    title="Athletic Director Mobile App"
+    subtitle="Mobile Design · Branding · Responsive"
+    text="I mocked up an app design for HSAD Network, a communication platform for Athletic Directors."
+    image={require('../images/hsad-cover.jpg')}
+  /></Link>
+  </div></ScrollAnimation>
+  </section>
     </div>
   </Layout>
 )
