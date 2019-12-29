@@ -1,10 +1,10 @@
 .Card {
-    width: 300px;
-    height: 225px;
+    width: 320px;
+    height: 130px;
     position: relative;
     overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    border-radius: 10px;
+    border: 2px solid #DFDFDF;
     display: grid;
     grid-template-rows: 1fr 1fr;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -13,33 +13,39 @@
 
 .Card:hover {
     transform: scale(1.1, 1.1);
-    box-shadow: 0 30px 60px rgba(0,0,0, 0.5);
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.3);
 }
 
 .Card:hover img {
-    transform: translateY(-20px);
+    transform: scale(1.1, 1.1);
+}
+
+.Card:hover p {
+    color: #4A90E2;
 }
 
 .Card img {
-    height: 110%;
+    height: 100%;
     position: absolute;
     top: 0;
     z-index: -1;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.Card h3 {
-    color: white;
-    font-size: 30px;
-    margin: 20px 0 0 20px;
-    width: 190px;
+.Card h4 {
+    color: rgba(0,0,0, 0.8);
+    font-size: 24px;
+    margin: 30px 0 0 30px;
+    width: 200px;
+    line-height: 1;
+    text-align: left;
 }
 
 .Card p {
-    color: rgba(255,255,255, 0.8);
+    color: rgba(0,0,0, 0.4);
     text-transform: uppercase;
     font-weight: 600;
     font-size: 18px;
     align-self: end;
-    margin: 0 0 20px 20px;
+    margin: 0 0 30px 30px;
 }

@@ -215,7 +215,7 @@ const EnteloIQ = () => (
           <p>Engineering Leadership Sourcer</p>
         </div></ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><div class ="surveymonkey">
-          <img src={require('../images/surveymonkey-logo.png')}/>
+          <img src={require('../images/amazon-logo.png')}/>
           <p>Technical Sourcer</p>
         </div></ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" duration="1" animateOnce="true"><div class ="creator">
@@ -229,29 +229,72 @@ const EnteloIQ = () => (
 
       <div class="enteloiq-list">
       <ul>
-      <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>USER FEEDBACK AND REFINED FEATURES</h4><p>After reviewing the designs with users, we found that<span class="highlight">they were excited about the new product, but had very different plans for using it.</span>Workflows tend to vary across organizations, so I needed to strategically craft the interface in a way that would fit many different molds.</p>
-      <h5>Overall, positive feedback 👍</h5>
+      <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>USER FEEDBACK AND REFINED FEATURES</h4><p>After reviewing the designs with users, we found that<span class="highlight">they were excited about the new product, but had very different plans for using it.</span>Workflows tend to vary across organizations, so I needed to strategically craft the interface in a way that would fit many different molds. Some questions still remained:</p>
+      <h5>What if a recruiter doesn't know what position a candidate fits in to?</h5>
+      <h5>How much automation is TOO much?</h5>
       </li></ScrollAnimation>
       </ul>
       </div>
 
-      <div class="questions">
-      <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><img src={require('../images/animat-customize.gif')}/></ScrollAnimation>
-      <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><div><h2>After a bit of refactoring, I came up with the final, high fidelity mocks</h2>
+
+      <div class="enteloiq-before-after">
+        <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true">
+        <div class="es-before">
+        <h5>1st Iteration</h5>
+        <img class src={require('../images/enteloiq-element-1.png')}/>
+        </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration="1" animateOnce="true">
+        <div class="es-after">
+        <h5>Final Iteration</h5>
+        <img class src={require('../images/suggestions-iteration-2.png')}/>
+        <div class="pulsating-circle-10"></div>
+        <div class="image-notes-10"><h5>Even columns,
+        <br/>most valuable <br/>features
+        <br/>at the top →</h5></div>
+        </div>
+        </ScrollAnimation>
+      </div>
+
+
+      <div class="enteloiq-before-after">
+        <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true">
+        <div class="es-before">
+        <h5>1st Iteration</h5>
+        <img class src={require('../images/enteloiq-element-3.png')}/>
+        </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" duration="1" animateOnce="true">
+        <div class="es-after">
+        <h5>Final Iteration</h5>
+        <img class src={require('../images/interested-iteration-2.png')}/>
+        <div class="pulsating-circle-4"></div>
+        <div class="image-notes-4"><h5>Even columns,
+        <br/>most valuable <br/>features
+        <br/>at the top →</h5></div>
+        </div>
+        </ScrollAnimation>
+      </div>
+
+
+
+      <div class="enteloiq-questions">
+      <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><img src={require('../images/animat-checkmark.gif')}/></ScrollAnimation>
+      <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true"><div><h2>Many design reviews and file versions later, I came up with a set of high fidelity mocks</h2>
       <h2>↓</h2>
       </div></ScrollAnimation>
       </div>
 
     <div class ="ProjectShowcase">
-      <div class ="entelo-sticky">
+      <div class ="enteloiq-sticky">
         <h2>Final Product</h2>
       </div>
       <div class="scroll">
         <h4>Suggested Candidates</h4>
-        <p>Suggestions offer users the ability to discover new candidates they might not see in a regular search by surfacing profiles related to candidates they've taken action on.</p>
-        <img src={require('../images/entelo-browser-suggestions.jpg')}/>
-        <h4>Projects</h4>
-        <p>Projects are a major part of a recruiter's workflow on Entelo. This widget gives users a quick snapshot of their active projects, with a blue dot to indicate which ones need attention.</p>
+        <p>Suggestions offer the ability to discover candidates that our product intelligently recommends based on profiles that fit their job description. They can browse candidates here and either add them to the pipeline, or reject them.</p>
+        <img src={require('../images/enteloiq-final-suggestions.jpg')}/>
+        <h4>Candidate Pool</h4>
+        <p>One of the biggest value props for this new product is its ability to pull candidates from multiple sources and allow recreuiters to manage them all in one place.</p>
         <img src={require('../images/entelo-browser-projects.jpg')}/>
         <h4>Messaging</h4>
         <p>Users love tracking their engagement on messages sent to candidates, so I bundled the most important stats and activity regarding their messaging to display on the homepage.</p>

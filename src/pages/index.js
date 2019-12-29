@@ -17,7 +17,7 @@ const IndexPage = () => (
     <div>
     <div className="Hero">
         <div className="HeroGroup">
-          <h2>Kate Butterfield</h2>
+          <h2>Kate Butterfield 👩🏻‍💻</h2>
           <p>I <span class="highlight">design and develop</span> digital products, and drink a lot of coffee in the process.
           </p>
           <Link to="/design">See for yourself <br/>↓</Link>

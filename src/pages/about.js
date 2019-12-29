@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import Card from '../components/card';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -29,6 +29,7 @@ const About = () => (
       <a href="https://medium.com/@katebutterfield.design" target="_blank"><FontAwesomeIcon icon={['fab', 'medium']} /></a>
       </div>
       </div>
+
       <div class="info-card">
         <div class="intro">
           <h3>Background</h3>
@@ -44,6 +45,24 @@ const About = () => (
         </div>
       </div>
       </div>
+
+      <div class="CardGroup">
+        <a href="https://open.spotify.com/show/1SNlsaEru8hM5yXXc6vvuz?si=cRZMAlDRSESBcfcnAEqVOw" target="_blank"><Card
+          title="Listening To  🎧"
+          text="New Layer · Podcast"
+        /></a>
+        <a href="https://medium.com/google-design/state-of-design-systems-2019-ff5f26ada71" target="_blank"><Card
+          title="Reading About 📚"
+          text="Design Systems · Medium"
+        /></a>
+        <a href="https://paper.dropbox.com/doc/Smashing-Conf-2019--ArbGu4KOJG9NCDZ~i~CUjE71AQ-u0MqJgDDzO3MeNMhRpWBk" target="_blank"><Card
+          title="Attending 📝"
+          text="UX Conferences"
+        /></a>
+      </div>
+
+
+
     </div>
   </Layout>
 )
