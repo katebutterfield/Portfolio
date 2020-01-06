@@ -118,9 +118,9 @@ const EnteloIQ = () => (
                   <div class="enteloiq-list">
                   <ul>
                   <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>CHALLENGES</h4><p>We came up with a few challenges to kick things off:</p>
-                  <h5>How might we help recruiters efficiently source directly for positions that are opened in the ATS?</h5>
-                  <h5>How might we augment the ATS to help recruiters efficiently complete low-value tasks* from pre-apply all the way through hire and create one click to hire experience? </h5>
-                  <h5>How might we give recruiters access to a unified talent pool that comes from multiple sources (ATS + Passive candidate sources)?</h5>
+                  <h5>How might we help recruiters efficiently source directly for positions that are opened in the ATS (Applicant Tracking System)?</h5>
+                  <h5>Can we augment the ATS to help recruiters efficiently complete low-value tasks from pre-apply all the way through hire and create one click to hire experience? </h5>
+                  <h5>Determine how to give recruiters access to a unified talent pool that comes from multiple sources</h5>
                   </li></ScrollAnimation>
                   </ul>
                   </div>
@@ -286,25 +286,22 @@ const EnteloIQ = () => (
         <h4>Suggested Candidates</h4>
         <p>Suggestions offer the ability to discover candidates that our product intelligently recommends based on profiles that fit their job description. They can browse candidates here and either add them to the pipeline, or reject them.</p>
         <img src={require('../images/enteloiq-final-suggestions.jpg')}/>
-        <h4>Candidate Pool</h4>
-        <p>One of the biggest value props for this new product is its ability to pull candidates from multiple sources and allow recreuiters to manage them all in one place.</p>
+        <h4>Suggested Candidates (List View)</h4>
+        <p>One piece of feedback that I got is that it may be beneficial to include the option to browse candidates more quickly. I created a List view as an alternate viewing option for suggested candidates.</p>
         <img src={require('../images/enteloiq-final-suggestions-list.jpg')}/>
         <h4>Positions</h4>
-        <p>Here is where recruiters manage their open jobs. I decided to call out the recruiting team after feedback asking for more transparency into what peers are working on.</p>
+        <p>Here is where recruiters manage their open jobs. I decided to highlight the recruiting team after feedback asking for more transparency into what peers are working on.</p>
         <img src={require('../images/enteloiq-final-positions.jpg')}/>
         <h4>Activity</h4>
         <p>After multiple iterations and rounds of testing, I came up with the final version of this widget, which displays a snippet of reporting for the user's activity within the last 30 days.</p>
         <img src={require('../images/enteloiq-final-messaging.jpg')}/>
-        <h4>Achievements</h4>
-        <p>Gamification encourages users to be more active on the platform. To spark this productivity, I decided to display the user's latest badge along with their progress towards the next one. </p>
-        <img src={require('../images/entelo-browser-achievements.jpg')}/>
-        <h4>Searches</h4>
-        <p>When talking to users, I determined that they like having the option to access this from the homepage. They can use the dropdown menu at the top to switch between their saved and recent searches.</p>
-        <img src={require('../images/entelo-browser-searches.jpg')}/>
+        <h4>Analytics</h4>
+        <p>From a business perspective, it's important for decision makers to see ROI in our product. Analytics are a great way to prove value, so I made sure to include metrics that I know they care about, like Time to Hire.</p>
+        <img src={require('../images/enteloiq-final-analytics.jpg')}/>
       </div>
     </div>
     <div class="enteloiq-mockup">
-      <div class="entelo-list">
+      <div class="enteloiq-list">
       <ul>
         <li class><ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>IMPLEMENTATION & KEY METRICS</h4><p>
         As of January 2020, the team will start to use these mockups build the initial version of the combined product. I'll work with engineers and product managers to scope the process.
