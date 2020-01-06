@@ -24,14 +24,15 @@ const EnteloIQ = () => (
           <div class="enteloiq-context-right">
             <ul>
               <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>TIMELINE</h4><p>Market Research · Aug 2019 <br/>
-              Design & Iteration · Sept - Dec 2019
+              Design & Iteration · Sept - Dec 2019<br/>
+              Initial Implementation · Jan 2020
               </p></li></ScrollAnimation>
               <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>TEAM</h4>
               <p>2 Product Managers <br/>
               3-4 Engineers<br/>
               3 Product team leaders
               </p></li></ScrollAnimation>
-              <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>TOOLS</h4><p>Sketch, InVision, FullStory</p></li></ScrollAnimation>
+              <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>TOOLS</h4><p>Sketch, InVision, FullStory, <br/>Material Design</p></li></ScrollAnimation>
               </ul>
               </div>
           </div>
@@ -229,7 +230,7 @@ const EnteloIQ = () => (
 
       <div class="enteloiq-list">
       <ul>
-      <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>USER FEEDBACK AND REFINED FEATURES</h4><p>After reviewing the designs with users, we found that<span class="highlight">they were excited about the new product, but had very different plans for using it.</span>Workflows tend to vary across organizations, so I needed to strategically craft the interface in a way that would fit many different molds. Some questions still remained:</p>
+      <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><li class><h4>USER FEEDBACK AND REFINED FEATURES</h4><p>After reviewing the designs with users, we found that<span class="highlight"> they were excited about the new product, but had very different plans for using it.</span>Workflows tend to vary across organizations, so I needed to strategically craft the interface in a way that would fit many different molds. Some questions still remained:</p>
       <h5>What if a recruiter doesn't know what position a candidate fits in to?</h5>
       <h5>How much automation is TOO much?</h5>
       </li></ScrollAnimation>
@@ -239,19 +240,15 @@ const EnteloIQ = () => (
 
       <div class="enteloiq-before-after">
         <ScrollAnimation animateIn="fadeInUp" duration=".8" animateOnce="true">
-        <div class="es-before">
+        <div class="enteloiq-before">
         <h5>1st Iteration</h5>
         <img class src={require('../images/enteloiq-element-1.png')}/>
         </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" duration="1" animateOnce="true">
-        <div class="es-after">
+        <div class="enteloiq-after">
         <h5>Final Iteration</h5>
         <img class src={require('../images/suggestions-iteration-2.png')}/>
-        <div class="pulsating-circle-10"></div>
-        <div class="image-notes-10"><h5>Even columns,
-        <br/>most valuable <br/>features
-        <br/>at the top →</h5></div>
         </div>
         </ScrollAnimation>
       </div>
@@ -267,11 +264,7 @@ const EnteloIQ = () => (
         <ScrollAnimation animateIn="fadeInUp" duration="1" animateOnce="true">
         <div class="es-after">
         <h5>Final Iteration</h5>
-        <img class src={require('../images/interested-iteration-2.png')}/>
-        <div class="pulsating-circle-4"></div>
-        <div class="image-notes-4"><h5>Even columns,
-        <br/>most valuable <br/>features
-        <br/>at the top →</h5></div>
+        <img class src={require('../images/messaging-interested.gif')}/>
         </div>
         </ScrollAnimation>
       </div>
@@ -287,7 +280,7 @@ const EnteloIQ = () => (
 
     <div class ="ProjectShowcase">
       <div class ="enteloiq-sticky">
-        <h2>Final Product</h2>
+        <h2>Mockups</h2>
       </div>
       <div class="scroll">
         <h4>Suggested Candidates</h4>
@@ -295,13 +288,13 @@ const EnteloIQ = () => (
         <img src={require('../images/enteloiq-final-suggestions.jpg')}/>
         <h4>Candidate Pool</h4>
         <p>One of the biggest value props for this new product is its ability to pull candidates from multiple sources and allow recreuiters to manage them all in one place.</p>
-        <img src={require('../images/entelo-browser-projects.jpg')}/>
-        <h4>Messaging</h4>
-        <p>Users love tracking their engagement on messages sent to candidates, so I bundled the most important stats and activity regarding their messaging to display on the homepage.</p>
-        <img src={require('../images/entelo-browser-messaging.jpg')}/>
+        <img src={require('../images/enteloiq-final-suggestions-list.jpg')}/>
+        <h4>Positions</h4>
+        <p>Here is where recruiters manage their open jobs. I decided to call out the recruiting team after feedback asking for more transparency into what peers are working on.</p>
+        <img src={require('../images/enteloiq-final-positions.jpg')}/>
         <h4>Activity</h4>
         <p>After multiple iterations and rounds of testing, I came up with the final version of this widget, which displays a snippet of reporting for the user's activity within the last 30 days.</p>
-        <img src={require('../images/entelo-browser-activity.jpg')}/>
+        <img src={require('../images/enteloiq-final-messaging.jpg')}/>
         <h4>Achievements</h4>
         <p>Gamification encourages users to be more active on the platform. To spark this productivity, I decided to display the user's latest badge along with their progress towards the next one. </p>
         <img src={require('../images/entelo-browser-achievements.jpg')}/>
@@ -310,12 +303,12 @@ const EnteloIQ = () => (
         <img src={require('../images/entelo-browser-searches.jpg')}/>
       </div>
     </div>
-    <div class="mockup">
+    <div class="enteloiq-mockup">
       <div class="entelo-list">
       <ul>
         <li class><ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><h4>IMPLEMENTATION & KEY METRICS</h4><p>
-        Due to changes in priorities, the Homepage was pushed back to a later date and is currently in development.
-        Metrics I'll measure once it's released are - Engagement rates with Projects and Track Messaging, as well as number of achievements (via Mode).
+        As of January 2020, the team will start to use these mockups build the initial version of the combined product. I'll work with engineers and product managers to scope the process.
+        Key Metrics are TBD, but high level goals include increasing Entelo's net and gross retention rates, NPS scores, and confirmed hires.
         </p></ScrollAnimation></li>
         </ul>
         </div>

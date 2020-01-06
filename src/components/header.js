@@ -32,7 +32,7 @@ constructor(props) {
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
           <Link to="/"><img src={require('../images/kate-logo-svg.svg')} width="30"/></Link>
-          <Link to="/design">Design</Link>
+          <Link to="/design">Case Studies</Link>
           <Link to="/about">About</Link>
           <a href="mailto:katebutterfield.design@gmail.com">Contact Me <span class="wave">👋</span></a>
         </div>
