@@ -2057,7 +2057,7 @@ h3 {
 .pulsating-circle {
   position: absolute;
   left: 50%;
-  top: 220%;
+  top: 270%;
   transform: translateX(-50%) translateY(-50%);
   width: 30px;
   height: 30px;
@@ -2116,7 +2116,7 @@ h3 {
   z-index: auto;
   position: absolute;
   left: 57%;
-  top: 225%;
+  top: 275%;
   transform: translateX(-50%) translateY(-50%);
 }
 
