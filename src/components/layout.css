@@ -512,7 +512,7 @@ section {
 
 .EnteloIQHeader {
   padding: 200px 50px;
-  background-image: url(../images/enteloiq-cover.jpg);
+  background-image: url(../images/enteloiq-header.jpg);
   background-size:cover;
   background-position:center center;
   background-repeat: no-repeat;
@@ -2894,4 +2894,34 @@ h3 {
     }
 }
 
+}
+
+.passform {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  margin-top: 15%;
+}
+
+.passform #pswd {
+  height: 35px;
+  width: 250px;
+  border-radius: 25px;
+  padding-left: 10px;
+  margin: 20px;
+  border: 2px solid #DFDFDF;
+  outline: none;
+}
+
+.passform button {
+  padding: 8px 10px;
+  color: #008AC3;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 0px;
+  outline: none;
 }

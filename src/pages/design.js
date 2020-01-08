@@ -15,18 +15,25 @@ const Design = () => (
     <SEO title="Case Studies" />
     <div>
   <section class="projects">
+    <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><div><Link to="/password"><Project
+    title="Entelo 2.0"
+    subtitle="UX/UI · Research · Large Scale Design"
+    text="I led research and design post-acquisition of ConveyIQ to create a new merged product."
+    image={require('../images/enteloiq-cover.jpg')}
+    /></Link>
+    </div></ScrollAnimation>
+    <ScrollAnimation animateIn="fadeInUp" duration=".6" animateOnce="true"><div><Link to="/classhook"><Project
+     title="Site Redesign"
+     subtitle="UX/UI Design · Flowchart · Grid Layout"
+     text="I did a complete overhaul of the main pages on the ClassHook site with the goal of increasing MAU."
+     image={require('../images/classhook-cover.jpg')}
+   /></Link>
+   </div></ScrollAnimation>
     <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><div><Link to="/entelo"><Project
     title="Entelo Homepage"
     subtitle="UX/UI Design · User Research · Prototyping"
     text="I redesigned the Entelo Homepage to optimize for user retention and a better workflow."
     image={require('../images/entelo-cover.jpg')}
-  /></Link>
-  </div></ScrollAnimation>
-   <ScrollAnimation animateIn="fadeInUp" duration=".6" animateOnce="true"><div><Link to="/classhook"><Project
-    title="Site Redesign"
-    subtitle="UX/UI Design · Flowchart · Grid Layout"
-    text="I did a complete overhaul of the main pages on the ClassHook site with the goal of increasing MAU."
-    image={require('../images/classhook-cover.jpg')}
   /></Link>
   </div></ScrollAnimation>
    <ScrollAnimation animateIn="fadeInUp" duration=".7" animateOnce="true" offset="20"><div><Link to="/employstream"><Project

@@ -2,10 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import Card from '../components/card';
-import LazyLoad from 'react-lazy-load'
 import Project from '../components/project';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css"; // You can also use <link> for styles
