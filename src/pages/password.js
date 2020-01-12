@@ -16,7 +16,7 @@ function validatePass(){
 
 const Password = () => (
   <div className="passform">
-    <h3>Enter a Password</h3>
+    <h3>Enter Password</h3>
     <input id="pswd" type="text" placeholder="Enter Password"/>
       <button id="enter" type="submit" onClick={validatePass}>SUBMIT</button>
   </div>

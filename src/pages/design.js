@@ -22,13 +22,6 @@ const Design = () => (
     image={require('../images/enteloiq-cover.jpg')}
     /></Link>
     </div></ScrollAnimation>
-    <ScrollAnimation animateIn="fadeInUp" duration=".6" animateOnce="true"><div><Link to="/classhook"><Project
-     title="Site Redesign"
-     subtitle="UX/UI Design · Flowchart · Grid Layout"
-     text="I did a complete overhaul of the main pages on the ClassHook site with the goal of increasing MAU."
-     image={require('../images/classhook-cover.jpg')}
-   /></Link>
-   </div></ScrollAnimation>
     <ScrollAnimation animateIn="fadeInUp" duration=".5" animateOnce="true"><div><Link to="/entelo"><Project
     title="Entelo Homepage"
     subtitle="UX/UI Design · User Research · Prototyping"
@@ -36,6 +29,13 @@ const Design = () => (
     image={require('../images/entelo-cover.jpg')}
   /></Link>
   </div></ScrollAnimation>
+    <ScrollAnimation animateIn="fadeInUp" duration=".6" animateOnce="true"><div><Link to="/classhook"><Project
+     title="Site Redesign"
+     subtitle="UX/UI Design · Flowchart · Grid Layout"
+     text="I did a complete overhaul of the main pages on the ClassHook site with the goal of increasing MAU."
+     image={require('../images/classhook-cover.jpg')}
+   /></Link>
+   </div></ScrollAnimation>
    <ScrollAnimation animateIn="fadeInUp" duration=".7" animateOnce="true" offset="20"><div><Link to="/employstream"><Project
     title="Form Configuration"
     subtitle="UX/UI Design · Animation · Interaction Design"

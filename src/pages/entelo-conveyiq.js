@@ -292,6 +292,9 @@ const EnteloIQ = () => (
         <h4>Positions</h4>
         <p>Here is where recruiters manage their open jobs. I decided to highlight the recruiting team after feedback asking for more transparency into what peers are working on.</p>
         <img src={require('../images/enteloiq-final-positions.jpg')}/>
+        <h4>Candidate Profile</h4>
+        <p>The candidate profile is the biggest piece of entelo's product that is carried over to the new merged platform.</p>
+        <img src={require('../images/enteloiq-final-profile.png')}/>
         <h4>Activity</h4>
         <p>After multiple iterations and rounds of testing, I came up with the final version of this widget, which displays a snippet of reporting for the user's activity within the last 30 days.</p>
         <img src={require('../images/enteloiq-final-messaging.jpg')}/>

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Kate Butterfield Portfolio`,
-    description: `Welcome to the place where my nerd shows the most. Here you can enjoy high-quality mockups, wireframes, and animations.`,
+    title: `Kate Butterfield`,
+    description: `Kate Butterfield's Digital Porfolio.`,
     author: `@katebutterfield`,
   },
   plugins: [
